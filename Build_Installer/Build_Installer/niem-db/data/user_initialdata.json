@@ -1,0 +1,156 @@
+[
+	{
+		"user_role": "User",
+		"last_name": "Fury",
+		"first_name": "Nicholas",
+		"email": "NFury@shield.com",
+		"organization": "SHIELD",
+		"history": {
+			"created_by": "System, User S",
+			"modified_by": "System, User S",
+			"created_by_id": {
+				"$oid": "5f652ac649c3ea6ac8716de9"
+			},
+			"modified_by_id": {
+				"$oid": "5f652ac649c3ea6ac8716de9"
+			},
+			"created_date": "2020-09-18T21:46:46.898Z",
+			"modified_date": "2020-09-18T21:46:46.898Z"
+		},
+		"last_login": "2020-06-08T17:34:25.851Z",
+		"login_attempts": 0,
+		"salt": "P19C2xI3uCW33GCbB0TReWk9vq/+DZy5GTJa8sweP6ipnCVIyGb6QA3l7jTVxOfsYWZBOFZwu7P+wH9WJQ82yQ==",
+		"hash": "d0uLxhomLaUuOIzzZgFT5IySbWw0zVz/WoUUBET8i6UUjKjIvP2MU//+6uAZSP4FZyCvrazLCJfgj3KiOa8pdHnnIzL+42UM80eyYg5B8V1oYIuLJMdre41kpHoQtxuisod/MeEfROUgcL7EPFQMBcy5SfBT76DtqoLhAPM2McuN8wT7+tpgXPVGA1gwmOucM0wd8M17Wnnq+zLQ0hfz2M3z/lV7v8lRubzNiKsgfqu9X/2MfrEWRnaAzrQWk7uc0NIgG+qpE8FVsKrtPhorPDt0LXgyTWgXkl45nb0fcIj0YDwAzhusheW8G6SSTk4ucYmzdFpI6br0ogMaFtjXsQ==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SysAdmin",
+		"last_name": "System",
+		"first_name": "Admin",
+		"display_name": "SysAdmin",
+		"email": "sysadmin",
+		"login_attempts": 0,
+		"salt": "NUxMjvn56WgxcfPQ2ZKEE4IMIC1xSlXnYDVcyRV8mIj1tLFV1n5OS+aSjWuvl0ixO08p4xJ2VUYLKdQ6yM9+Ow==",
+		"hash": "nvCdGbN80Rc5iIlyHJkYRhznRoh6ermLHwpoQuKkQoVjCZJ7pFcRO1n6hbPLvb0+RrQxwuQnoljnP4+4JOgw/zcPfXH2q3ftHq0H0Ww2ADSj2uCpaA5stRH6BkQ78mm2s4aA9tX+3BQ5LTjAE/seu1EgVt5dST9MYXALXuibVAMS2mMC9TuBuQepLuaFy7wwWXYwNMQUQNl14CUDeiawkOtFZmoUhIA7KbhIMmYRP9qVt3xaa/OJ46DgiiACbveYfGOuVDsY+jClJic+zfyhq9szmJDTu/+RrgB1UKCaztMYwkJU333jfZlU/rduHpNv1FhYnGwk5ZBMnL7NBuvvLw==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "Admin",
+		"last_name": "Beach",
+		"first_name": "Aubrey",
+		"display_name": "Aubrey",
+		"email": "Beach_Aubrey@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "V8Khpp5ZohwxGlsrEZenCYEECUhmTXRG8uU/CY/cq3Nf0HFeyWVHBZExemBnqcsXA5VhUHLPe0Z8DKyOsDIdFg==",
+		"hash": "nmonoXzEPPfqMCUT6Y0o25PqiVOtZQlsyykJiuD6l9WW2lT/MUlZF5ECMceqpILv+kbGoSUAz/EeQfDsin/6c5envk9vdfO7DwWLN7618O+10i55WmhrHT9d+7bFi92z2U+TJNaqy8T2tBExZMLZ6m736p/3WhnIpZ0ofRqPJz/rSyFkFqyIHWkell/Pwk75UUzap729vv8vO699HZFR6/iZUXkhvaZST5MrxZsOhF4iMTOl/I60Fg3zBIEBnVklYIpO7Wo1iQydidQYDlGlqvg7LJga/0C6Lxzc59CaXRL5/ZLN8v/jb7EzSm7g1IaOvXhJoZvKhzRPosV99vfWXw==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "Admin",
+		"last_name": "Woodhouse",
+		"first_name": "Shunda",
+		"display_name": "Shunda",
+		"email": "Woodhouse_Shunda@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "teNvOsOZpIqu74uyTPeQNJ+tKKmK3rq+1AVOqBUNAQV88aIPqGfKMJZtoc8G379yOY9INs/tKLRQf2XX87l0yQ==",
+		"hash": "RHMfvr9DoXpZkaI8NYBOx3+G6Hjsnnx1ISd+ONiIyCsDfjfNDsjKO2mGIgEMKnbQ1/Tiy5LK96bwkStb/H349toVMprgC/q2JPwKUmFGYUpx1fZjlvNobwzGCv1ApjYp5pWXtm6sOoZqsrrmokEnRjQIHSPa0jJcxmq8X2Nkdx4b267mYiJhF8chZb3wwm9tht24eR6RzTK6VWDGjjhwKtGLWr00Gz9sQKjUHKdH/oqy0GP6XJ9HtQ4/Fk28gtomMfCkimyBBCnEHlm0PRIvUErrh5sNbNqBXWTyOdPGblC4Ym6DBLyJ4cL8zbLnklBtXpjWixuADUiHPjQtnf9YkQ==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "User",
+		"last_name": "Hardy",
+		"first_name": "David",
+		"display_name": "David",
+		"email": "Hardy_David@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "kesE6Ww/+gOGsRlA0zhH07mfxNcYxtfmSbkVrtmjdtuMJ82VmCJsIeZbvfWC5NjAzKV8HmF2Q5AcHVDudRWWDQ==",
+		"hash": "mR6L7hrHaOVlyV7VDvZx64i0T9fFwoc8watseEF9Dcsly4A0NQJiI/sMPOGnVnrAMhEw7FPC9qsycS/XL62VRfzIziIp/R82Q/JSY9XNtuFDac8p98eVL4YTZOKrW3VIDPVhXqRxVR6skjnw8BrGQgQafKqNe1JzXOXYDzkkgvofoXOaAdOo0mi/VzMzv2lNP/9aR3Nd1lRQq5H9XEKnGsMbKnYgJjgKJ1uMXDS3P/T1qJliuSdnw0Ja2fEdAYTngDGrTBU0ar8NzQMCLzZPE2Eu6jVyfTWtOAo0+2z+XpYvoizBbXHZNV0+K6BsG4MAgeoozcvHt467NLn/mVsxSA==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Horton",
+		"first_name": "Michael",
+		"display_name": "Michael",
+		"email": "Horton_Michael@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "Rom8QlCsfRD/1znf1e7rRxSUYLCkNYdbQ32peirZIS9QW40KbiSyvE5cTgVrIyMF1jWB6I8ku9okRK6nCJYTvw==",
+		"hash": "FUszP4D4DbkO+GO2WZ7/rZGscpVew8aouYFJv7lhrRHKQIUlnr+rA/0gFq8c/Rq2RZt1gi7ZZpsvacaw6f3M9SwqfNK/m+XmpYwiEU4D/yk3oFypWQPx8IcRcpQBg0FRTgQbUDDB3jkm8ZqVorPSIg//wreiTzBVa6+neCCUI6N5u0TXx03QPncMeGZgqDHXyU46E/q1FYYsiLi2TQ05H4uTzG/l0Haf5kS4HhwUTJA/ov9Rh9ll7HgWCa/VTmPzb5mgKCSQXWr7MlTdEppByRZ0ad6nA6OYSiTsfRigfXFUXG/n8oePU2pJ8z118+1pSvRSq3n4nS0uRDddjYWjNA==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Wash",
+		"first_name": "Rick",
+		"display_name": "Rick",
+		"email": "Wash_Richard@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "tJ5LA9WkPgW0dycfOeTdf/iudnUTKoYwsJDiVZCgQjlCubL5xBBudoOfzAmtP2Vbnr0QCVQgiJ17BpoihloODA==",
+		"hash": "sjhix8foOEkSZ8jIpbDvVKLJ+n9AjQzIFll36L/lM2Xj4zjJGO8Hx2jrha/nW6Pw0rFfUK5NGdTOC8FK/QOvRus4sQBeojxYpq0ZlKj4Y/T5sYgSHsLrU+5MZeAoHVYJM4NqoiWg9xnVtKvgsOiqXGLl80wPYgbBTeOWiXAcRj8X3X7ezbiDtvdFxQ/zYh90LRu/kk3l6xJNeJuGEYRA641zq7z4O8dsMApnj8pWNAlxgwV+fzy3rnpvur6FfOueRUW/8marb9PoY9TEji6zi+xl5gIBJJvIN1U0CnGufuvKz+utgBA7ZUsdvRJQUChyYQJCXUV3hlKps941xY34UQ==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Barksdale",
+		"first_name": "Char",
+		"display_name": "Char",
+		"email": "Barksdale_Chardiellea@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "NF/HM4KyHRXvoOXRMRdIsRydINM6Vde/AJbJ3d/6ZatAxLgcVKHmZaBvc7dSY0ee/VuP3Wsai/bvVO+5qf214w==",
+		"hash": "cyTl0BN9WFxGeiJk0R8bYkd/t6lUfGNruWHW34nxFOqgngu4ajKxzus03hbzmpRdxJcBcZTwe7YlyIWhaLt354Dlyeft0UDW37PU2B7W65m36co/OknwdZQi1RT1A1q2t3tr07olsPxR73wojaq2SIuUA/9evTnvAsN3nc0aLtb0r4FOhOd1kXQi5c4ElO4Th3xGs2RmcCFHMkR3MekfyPk5dEaiTZihcpivwywVoxNXibDt7Tk83Sv9lqp1A291z4l0/TXBZawzQefMS1wOK9z3IuQMjP1/24p5VF9VzwDzUY6p1QPoYBubs2YYfbzzfznwYlqe4kdtKt5dTfTX5g==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Springer",
+		"first_name": "Ainsley",
+		"display_name": "Ainsley",
+		"email": "springer_ainsley@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "plPxr1q74egouEmUC7+eI3OVMCY3O3zlrtJrkX8ybnL/9sAs8mpOoqcRg84vn4GaEpVN0SW+u8J1u4+3JjyDRg==",
+		"hash": "A/dmx2dIvecBhpPezrj7y3JkDTXdp8aLGhtsAyUc+BlIgWulYXCT3dmJbs+Uf5B6yNoUwsZ9Ncsk2unYxrEuZG8h5BtxKu26rkK+3EGgn88oDJG0o64Fz6pqtOibQo4UtJhmtDIzA+yqtEsuKANRmfMvx92SXPzSSIX798CUVYrxG2itpOfE7sVDv985Vo+zd17wO8IcF568juvok6U9lRmyvfZ+3x3i54VmNWMYPNBFdVVygq9bXuztgAa+5ErS28Bac9UJyVrn0082PzbSX072LLYzKHBuUnogJFGJKOSMwt4V3BMBvFsaQc6hze+nvWrBdf8mXQYbtCLBvCdl+w==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Joynes",
+		"first_name": "Kazare",
+		"display_name": "Kazare",
+		"email": "joynes_kazare@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "jBHKPNwU06nu9PMyQTwtu1tbWbIgMkzGEp/2M8LHXsujiaKCt3lNIELjNcHmOBifYVPeYj5j0upmp72amcq5tQ==",
+		"hash": "JdQLwrWxiu5KwuqcQb6zmxf+6bhrhcF2aph50YOVqJrnl6MFj7hjuTTNrUtLhTCLvqKmMrKDx0hVwQrK0pkCBSiWoIeR4jSpaptlg97+MfFin9soxtGVc0P1nAlMLdwpV67veSlUWPtgwkHaN5sa2rRM5IUFXUP8EuShrklrsExQi8/pZWHDqyRSoE3QD4J/sqSL7QhiL1gU2GUdI2OoFa0HIfdoA7lt+n/CkyzjXKwHcV3/HmOMY3J7nY1A9mxcC3WWOxOikDdLhfzKM9AkzBFq0iSaoVPCDUcD8KUKqkWXgdgP87XCtViglmnIqpu+DzEVW2HegkkgRXVltwlkag==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	},
+	{
+		"user_role": "SuperAdmin",
+		"last_name": "Bridgeman",
+		"first_name": "Kelsey",
+		"display_name": "Kelsey",
+		"email": "bridgeman_kelsey@bah.com",
+		"organization": "BAH",
+		"login_attempts": 0,
+		"salt": "pRsyoRjW7K9kP9ZU8ISMr6TNPAYRGxYw7Xc8onkfWJjmJW7ZYhBzHWKtrUinNTWOrtR39yN6+h2yaMyLvRL1wA==",
+		"hash": "5TxjmBubwBs2yMhyVrM+PG+YI4ANF2Kx3+GQzq25R7VPEXk0qUZ30mV6MpE2RWXL7HB7317TEV6O70Ko2KT8zvsgreOT0hCp8MZx3oFJUWowsDQCbA55yz1rAEaiDhOoCXVa6kDrf2Lw43PuqlnsKHGTZYS17QVzt5U1MYTnwAVG01MCSTVKlMCH29TG42nppo4rKFx7QmOHxYlNg2jhjHqvrRR82SAm2fVs6UqXreMGcS1ZS6pS45NN57HSl9mTGu1N3tPGvL2NFVV31zaaXKShrMroRa7gd+BpOu5bWd2jqEWPMXomGCxapaJK+HNgeWLMiRMMBBwP1Pi6sB5sRg==",
+		"password_created": "2023-4-19",
+		"account_locked": false
+	}
+]

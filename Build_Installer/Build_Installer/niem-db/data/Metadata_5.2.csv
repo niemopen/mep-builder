@@ -1,0 +1,8 @@
+Release,MetadataTypeNamespacePrefix,MetadataTypeName,MetadataQualfiedType,AppliesToTypeNamespacePrefix,AppliesToTypeName,AppliesToQualifiedType
+5.2,cbrn,TotalDoseMetadataType,cbrn:TotalDoseMetadataType,structures,ObjectType,structures:ObjectType
+5.2,cbrn,TotalExposureMetadataType,cbrn:TotalExposureMetadataType,structures,ObjectType,structures:ObjectType
+5.2,j,MetadataType,j:MetadataType,structures,AssociationType,structures:AssociationType
+5.2,j,MetadataType,j:MetadataType,structures,ObjectType,structures:ObjectType
+5.2,nc,MetadataType,nc:MetadataType,structures,AssociationType,structures:AssociationType
+5.2,nc,MetadataType,nc:MetadataType,structures,ObjectType,structures:ObjectType
+5.2,scr,PersonMetadataType,scr:PersonMetadataType,nc,PersonType,nc:PersonType

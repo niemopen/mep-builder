@@ -1,0 +1,26 @@
+import * as mongoose from 'mongoose';
+export declare const PackageSchema: mongoose.Schema<any, mongoose.Model<any, any, any, any, any>, {}, {}, {}, {}, mongoose.DefaultSchemaOptions, {
+    validationArtifacts: any[];
+    version?: string;
+    format?: string;
+    description?: string;
+    status?: string;
+    userId?: string;
+    packageName?: string;
+    niemRelease?: string;
+    statusNo?: string;
+    poc?: string;
+    pocEmail?: string;
+    orgName?: string;
+    orgType?: string;
+    coiTags?: string;
+    exchangeTags?: string;
+    isReleaseLocked?: boolean;
+    isRequiredArtifactUploaded?: string;
+    cmeData?: string;
+    isPublished?: boolean;
+    isCopiedPackage?: boolean;
+    isMigratedPackage?: boolean;
+    isTranslationGenerated?: boolean;
+    showValidationResults?: boolean;
+}>;

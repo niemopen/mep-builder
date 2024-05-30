@@ -1,0 +1,27 @@
+import * as mongoose from 'mongoose';
+
+export const PackageSchema = new mongoose.Schema({
+  userId: String,
+  packageName: String,
+  niemRelease: String,
+  version: String,
+  status: String,
+  statusNo: String,
+  poc: String,
+  pocEmail: String,
+  description: String,
+  orgName: String,
+  orgType: String,
+  coiTags: String,
+  exchangeTags: String,
+  format: String,
+  isReleaseLocked: Boolean,
+  isRequiredArtifactUploaded: String,
+  cmeData: String,
+  isPublished: Boolean,
+  isCopiedPackage: Boolean,
+  isMigratedPackage: Boolean,
+  isTranslationGenerated: Boolean,
+  validationArtifacts: Array,
+  showValidationResults: Boolean,
+});

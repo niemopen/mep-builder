@@ -1,0 +1,78 @@
+﻿originalRelease,originalPrefix,originalVersionNumber,changeCode,issue,draft,release,newPrefix,newVersionNumber,newURI
+5.1,ag,5.1,edit,,,5.2,ag,5.2,http://release.niem.gov/niem/domains/agriculture/5.2/
+5.1,biom,5.1,edit,,,5.2,biom,5.2,http://release.niem.gov/niem/domains/biometrics/5.2/
+5.1,cbrn,5.1,edit,,,5.2,cbrn,5.2,http://release.niem.gov/niem/domains/cbrn/5.2/
+5.1,cyber,5.1,edit,,,5.2,cyber,5.2,http://release.niem.gov/niem/domains/cyber/5.2/
+5.1,em,5.1,edit,,,5.2,em,5.2,http://release.niem.gov/niem/domains/emergencyManagement/5.2/
+5.1,fips,5.0,edit,,,5.2,fips,5.2,http://release.niem.gov/niem/codes/fips/5.2/
+5.1,hs,5.1,edit,,,5.2,hs,5.2,http://release.niem.gov/niem/domains/humanServices/5.2/
+5.1,im,5.1,edit,,,5.2,im,5.2,http://release.niem.gov/niem/domains/immigration/5.2/
+5.1,intel,5.1,edit,,,5.2,intel,5.2,http://release.niem.gov/niem/domains/intelligence/5.2/
+5.1,it,5.1,edit,,,5.2,it,5.2,http://release.niem.gov/niem/domains/internationalTrade/5.2/
+5.1,j,7.1,edit,,,5.2,j,7.2,http://release.niem.gov/niem/domains/jxdm/7.2/
+5.1,m,5.1,edit,,,5.2,m,5.2,http://release.niem.gov/niem/domains/maritime/5.2/
+5.1,mo,5.1,edit,,,5.2,mo,5.2,http://release.niem.gov/niem/domains/militaryOperations/5.2/
+5.1,ncic,5.1,edit,,,5.2,ncic,5.2,http://release.niem.gov/niem/codes/ncic/5.2/
+5.1,scr,5.1,edit,,,5.2,scr,5.2,http://release.niem.gov/niem/domains/screening/5.2/
+5.1,,,add,,,5.2,iso_639-5,5.2,http://release.niem.gov/niem/codes/iso_639-5/5.2/
+5.1,,,add,,,5.2,lrn-dev,5.2,http://release.niem.gov/niem/domains/learn-dev/5.2/
+5.1,,,add,,,5.2,usmtf,5.2,http://release.niem.gov/niem/domains/usmtf/5.2/
+5.1,aamva_d20,5.0,no change,,,5.2,,,
+5.1,ag_codes,5.0,no change,,,5.2,,,
+5.1,apco,5.0,no change,,,5.2,,,
+5.1,appinfo,5.0,no change,,,5.2,,,
+5.1,atf,5.0,no change,,,5.2,,,
+5.1,bls,5.0,no change,,,5.2,,,
+5.1,can,5.0,no change,,,5.2,,,
+5.1,cap,1.1,no change,,,5.2,,,
+5.1,cbrncl,5.0,no change,,,5.2,,,
+5.1,cli,5.0,no change,,,5.2,,,
+5.1,clsa,5.0,no change,,,5.2,,,
+5.1,commodity,5.0,no change,,,5.2,,,
+5.1,cui,5.1,no change,,,5.2,,,
+5.1,de,1.0,no change,,,5.2,,,
+5.1,dea,5.0,no change,,,5.2,,,
+5.1,edxl_rm,5.0,no change,,,5.2,,,
+5.1,edxl-cap,5.0,no change,,,5.2,,,
+5.1,edxl-de,5.0,no change,,,5.2,,,
+5.1,edxl-have,5.0,no change,,,5.2,,,
+5.1,fema,5.1,no change,,,5.2,,,
+5.1,genc,5.0,no change,,,5.2,,,
+5.1,geo,5.1,no change,,,5.2,,,
+5.1,gml,3.2.1,no change,,,5.2,,,
+5.1,have,1.0,no change,,,5.2,,,
+5.1,have-codes,5.0,no change,,,5.2,,,
+5.1,hazmat,5.0,no change,,,5.2,,,
+5.1,hl7,5.0,no change,,,5.2,,,
+5.1,ip,5.0,no change,,,5.2,,,
+5.1,iso_3166,5.0,no change,,,5.2,,,
+5.1,iso_4217,5.0,no change,,,5.2,,,
+5.1,iso_639-3,5.1,no change,,,5.2,,,
+5.1,itcodes,5.0,no change,,,5.2,,,
+5.1,jc3iedm,5.0,no change,,,5.2,,,
+5.1,jp2-0,5.0,no change,,,5.2,,,
+5.1,jp3-52,5.0,no change,,,5.2,,,
+5.1,mmucc,5.0,no change,,,5.2,,,
+5.1,nc,5.0,no change,,,5.2,,,
+5.1,nces,5.0,no change,,,5.2,,,
+5.1,ndex,5.0,no change,,,5.2,,,
+5.1,nga,5.0,no change,,,5.2,,,
+5.1,niem-xs,5.0,no change,,,5.2,,,
+5.1,nlets,5.0,no change,,,5.2,,,
+5.1,occs,5.0,no change,,,5.2,,,
+5.1,opm,5.0,no change,,,5.2,,,
+5.1,sar,5.0,no change,,,5.2,,,
+5.1,st,5.0,no change,,,5.2,,,
+5.1,stat,5.0,no change,,,5.2,,,
+5.1,stix,5.1,no change,,,5.2,,,
+5.1,structures,5.0,no change,,,5.2,,,
+5.1,ucr,5.1,no change,,,5.2,,,
+5.1,unece,5.0,no change,,,5.2,,,
+5.1,usda_fsa,5.0,no change,,,5.2,,,
+5.1,usps,5.0,no change,,,5.2,,,
+5.1,xCard,5.0,no change,,,5.2,,,
+5.1,xhtml,1.0,no change,,,5.2,,,
+5.1,xlink,1.0.0,no change,,,5.2,,,
+5.1,xls,1.1.0,no change,,,5.2,,,
+5.1,xml,1.0,no change,,,5.2,,,
+5.1,xs,1.0,no change,,,5.2,,,

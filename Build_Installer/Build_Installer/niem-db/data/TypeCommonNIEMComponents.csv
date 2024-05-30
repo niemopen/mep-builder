@@ -1,0 +1,79 @@
+﻿ns_prefix,type_name,definition
+nc,TextType,A data type for a character string.
+niem-xs,boolean,A data type for binary-valued logic (true/false).
+nc,DateType,A data type for a calendar date.
+niem-xs,string,A data type for character strings in XML.
+nc,IdentificationType,A data type for a representation of an identity.
+nc,QuantityType,A data type for a count or tally.
+nc,AmountType,A data type for an amount of money.
+nc,PersonType,A data type for a human being.
+nc,EntityType,"A data type for a person, organization, or item."
+nc,LocationType,A data type for geospatial location.
+nc,OrganizationType,A data type for a body of people organized for a particular purpose.
+niem-xs,nonNegativeInteger,A data type for an integer with a minimum value of 0.
+niem-xs,dateTime,"A data type for objects with integer-valued year, month, day, hour and minute properties, a decimal-valued second property, and a boolean timezoned property."
+nc,NumericType,A data type for a number value.
+nc,ActivityType,"A data type for a single or set of related actions, events, or process steps."
+nc,StatusType,A data type for a state of something or someone.
+niem-xs,duration,"A data type for a duration of time with the format PnYnMnDTnHnMnS, where nY is the number of years, nM is the number of months, nD is the number of days, nH is the number of hours, nM is the number of minutes, and nS is the number of seconds."
+nc,LengthMeasureType,A data type for a measure of a distance or extent.
+nc,CommentType,"A data type for a comment, note, or remark providing additional information."
+niem-xs,integer,A data type for the standard mathematical concept of integer numbers.
+nc,ItemType,A data type for an article or thing.
+nc,DocumentType,A data type for a paper or electronic document.
+nc,ActivityPersonAssociationType,A data type for an association between an activity and a person.
+nc,ContactInformationType,A data type for how to contact a person or an organization.
+niem-xs,positiveInteger,A data type that is derived from nonNegativeInteger by setting the value of minInclusive to be 1.
+nc,BinaryType,A data type for a digital representation of an object encoded in a binary format.
+nc,WeightMeasureType,A data type for a measure of a weight.
+nc,FacilityType,"A data type for one or more buildings, places, or structures that together provide a particular service."
+nc,ProperNameTextType,"A data type for a word or phrase by which a person or thing is known, referred, or addressed."
+niem-xs,decimal,A data type for arbitrary precision decimal numbers.
+nc,DateRangeType,A data type for a range of dates.
+nc,ImageType,A data type for a picture or visual representation of something.
+nc,ActivityOrganizationAssociationType,A data type for an association between an activity and an organization.
+niem-xs,date,A data type for a calendar date with the format CCYY-MM-DD.
+nc,CountryType,"A data type for a country, territory, dependency, or other such geopolitical subdivision of a location."
+nc,PercentType,"A data type for a ratio, proper fraction, or percentage, with 100% represented as the value 100."
+niem-xs,anyURI,"A data type for a Uniform Resource Identifier Reference (URI).  A value can be absolute or relative, and may have an optional fragment identifier (i.e., it may be a URI Reference)."
+nc,PersonAssociationType,A data type for an association between people.
+nc,TelephoneNumberType,A data type for a telephone number for a telecommunication device.
+nc,IncidentType,A data type for an occurrence or an event that may require a response.
+nc,ItemValueType,A data type for an evaluation of the monetary worth of an item.
+niem-xs,time,A data type for an instant of time with the format hh:mm:ss.sss.
+nc,ObligationType,A data type for something that is owed to an entity.
+niem-xs,gYear,A data type for a Gregorian calendar year with the format CCYY.
+nc,ProgramType,"A data type for a set of projects, activities, or services intended to meet a need."
+nc,JurisdictionType,"A data type for a geopolitical area in which an organization, person, or object has a specific range of authority."
+nc,SoftwareType,A data type for a computer application used to process data.
+nc,PlanType,A data type for a detailed proposal for doing or achieving something.
+nc,CaseType,A data type for an aggregation of information about a set of related activities and events.
+nc,VolumeMeasureType,A data type for a measure of an amount of space.
+xs,string,A data type for character strings in XML.
+nc,ItemEntityAssociationType,A data type for an association between an item and an entity.
+nc,PersonNameTextType,"A data type for a name by which a person is known, referred, or addressed."
+nc,MeasureType,A data type for a measurement.
+nc,PersonLocationAssociationType,A data type for an association between a person and a location.
+nc,PersonOrganizationAssociationType,A data type for an association between a person and an organization.
+nc,SupervisionType,"A data type for an act of officially overseeing, supervising, or keeping track in some capacity of a person."
+nc,TimeMeasureType,A data type for a measure of an amount of time.
+nc,ElectronicAddressType,"A data type for an address, ID, or Uniform Resource Locator (URL) that uniquely identifies a specific site on the Internet or another network."
+nc,ZuluDateTimeType,"A data type for a dateTime constrained to always be Zulu time, time at the Zero Meridian."
+nc,ConditionType,A data type for a requirement or stipulation.
+nc,AddressType,A data type for a geophysical location described by postal information.
+nc,ScheduleType,"A data type for a schedule providing the beginning and ending hours of operation by weekday, for a designated time period."
+xs,boolean,A data type for binary-valued logic (true/false).
+nc,SpeedMeasureType,A data type for a measure of a speed or rate of motion.
+niem-xs,base64Binary,A data type for Base64-encoded binary data.
+nc,ReferralType,"A data type for a recommendation of a person to an activity, program, or product."
+nc,NonNegativeDecimalType,A data type for a decimal value with a minimum value of 0.
+nc,ReleaseType,"A data type for a freeing or discharging of someone or something from an activity, supervision, or obligation."
+nc,AirportType,A data type for an airport facility.
+nc,SubstanceType,A data type for the matter or substance of which something consists.
+nc,ItemLocationAssociationType,A data type for an association between a property and a location.
+nc,ActivityItemAssociationType,A data type for an association between an activity and an item.
+nc,ActivityDocumentAssociationType,A data type for an association between an activity and a document.
+nc,MetadataType,A data type for information that further qualifies primary data; data about data.
+niem-xs,token,A data type for tokenized strings.
+nc,DisciplinaryActionType,"A data type for an activity assigned to a person for the purpose of self-improvement, punishment, or restitution."
+nc,Degree180PlusMinusType,A data type for an angle measured in degrees between -180 and 180.

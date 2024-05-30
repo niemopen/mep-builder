@@ -1,0 +1,39 @@
+---
+kind: pipeline
+type: kubernetes
+#####
+######
+
+steps:
+- name: Build & Push  
+  image: plugins/docker
+  privledged: true
+  debug: true
+  pull_image: true
+  settings:
+    username: robot$drone
+    password:
+      from_secret: robot_pass
+    tags: ${DRONE_BRANCH/release\//}-${DRONE_BUILD_NUMBER}
+    repo: harbor.paas.cdf2.usae.bah.com/niem/webui
+    registry: harbor.paas.cdf2.usae.bah.com
+    insecure: true
+  when:
+    branch: master
+  
+  
+##
+
+- name: Update Workload
+  image: quay.io/honestbee/drone-kubernetes
+  settings:  
+    kubernetes_server: https://10.137.9.82:6443
+    kubernetes_token: 
+      from_secret: kube_token
+    namespace: niem-dev
+    deployment: webui-initial
+    repo: harbor.paas.cdf2.usae.bah.com/niem/webui
+    container: webui-initial
+    tag: ${DRONE_BRANCH/release\//}-${DRONE_BUILD_NUMBER}
+  when:
+    branch: master

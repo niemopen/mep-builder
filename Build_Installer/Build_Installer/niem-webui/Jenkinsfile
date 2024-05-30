@@ -1,0 +1,46 @@
+pipeline {
+    agent {
+        kubernetes {
+            cloud 'kubernetes'
+            inheritFrom 'jenkins-slave-jnlp2'
+        } 
+    }
+    environment {
+    registry = "repo.paas.cdf2.usae.bah.com/niem/webui"
+    registryCredential = "harbor1"
+    DOCKER_USER = credentials('repouser')
+    DOCKER_PASS = credentials('repopassword')
+    }
+    stages {
+        stage ("Clone Repo") {
+            steps {
+            sh "ls -la"
+            }
+        }
+        stage ("Build Image") {
+            steps {
+                container('docker-daemon') {
+                    script {
+                      dockerImage = docker.build registry + ":$BUILD_NUMBER"
+                    }
+                }
+            }
+        }
+        
+        stage ("Push Image") {
+            when {
+        branch "master"
+            }
+            steps {
+                container('docker-daemon') {
+                    script {
+                        docker.withRegistry( 'https://repo.paas.cdf2.usae.bah.com/niem/webui', registryCredential ) {
+                            dockerImage.push("$BUILD_NUMBER")
+                        }
+                    }
+                    
+                    }
+                }
+            }
+        }
+    }

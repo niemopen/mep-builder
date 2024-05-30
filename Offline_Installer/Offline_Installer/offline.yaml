@@ -1,0 +1,79 @@
+version: '3.8'
+# ===================================================================================================
+# docker-compose for all NIEM services and tools
+#
+# Environment Variables this script expects to be set
+# - MDB_PASSWORD: Username for the DB
+# - MDB_PASSWORD: Password for the DB
+# ===================================================================================================
+services:
+    # ####################################
+    # # Web UI
+    # ####################################
+    webui:
+        image: niem-webui
+        container_name: niem-webui
+        ports:
+            - 3000:3000
+        environment:
+            CLASSIFICATION: NIPR
+            API_PORT: 9090
+            REACT_APP_API_HOST: 'http://niem-api'
+            NODE_ENV: development
+        depends_on:
+            - niem-api
+        healthcheck:
+            test: ['CMD', 'curl', '--fail', 'http://localhost:3000']
+            interval: 5s
+            timeout: 5s
+            retries: 5
+        restart: on-failure
+        networks:
+            - niem
+
+        ####################################
+        # API
+        ####################################
+    niem-api:
+        image: niem-api
+        container_name: niem-api
+        restart: always
+        ports:
+            - 9090:9090
+        environment:
+            PORT: 9090
+            NODE_ENV: development
+            MONGO_INITDB_ROOT_USERNAME: niemadmin
+            MONGO_INITDB_ROOT_PASSWORD: example
+            REPOSITORY_MONGO_URL: mongodb://mongodb:27017
+            REPOSITORY_MONGO_DB: niemdb
+        volumes:
+            - ./NIEM_DATA/:/NIEM_DATA
+        healthcheck:
+            test: ['CMD', 'curl', '--fail', 'http://localhost:9090/']
+            interval: 15s
+        depends_on:
+            - mongodb
+        networks:
+            - niem
+
+        ####################################
+        # MongoDB Database
+        ####################################
+    mongodb:
+        image: niem-db
+        container_name: mongodb
+        environment:
+            # Credentials for Mongodb
+            MONGO_INITDB_DATABASE: niemdb
+            MONGO_INITDB_ROOT_USERNAME: niemadmin
+            MONGO_INITDB_ROOT_PASSWORD: example
+            #
+        restart: always
+        ports:
+            - 8081:8081
+            - 27017:27017
+        networks:
+            - niem
+networks:
+    niem:

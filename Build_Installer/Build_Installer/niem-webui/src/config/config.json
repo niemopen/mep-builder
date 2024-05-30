@@ -1,0 +1,6 @@
+{
+	"isStandAloneSys": true,
+	"translateTypes": ["CMF", "JSON LD", "XML", "JSON Schema", "OWL"],
+	"niemReferenceBaseURL": "https://reference.niem.gov/niem/",
+	"niemContactEmail": "info@niemopen.org"
+}

@@ -1,0 +1,21 @@
+import * as mongoose from 'mongoose';
+export declare const UserSchema: mongoose.Schema<any, mongoose.Model<any, any, any, any, any>, {}, {}, {}, {}, mongoose.DefaultSchemaOptions, {
+    first_name?: string;
+    last_name?: string;
+    email?: string;
+    phone?: string;
+    organization?: string;
+    user_role?: string;
+    login_attempts?: number;
+    salt?: string;
+    hash?: string;
+    password_created?: string;
+    account_pending?: boolean;
+    account_denied?: boolean;
+    account_locked?: boolean;
+    account_revoked?: boolean;
+    status_change_reason?: string;
+    denial_reason?: string;
+    denial_details?: string;
+    forceLogOut?: boolean;
+}>;

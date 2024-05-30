@@ -1,0 +1,18 @@
+pipeline:
+  agent:
+    any:
+  stages:        
+    - stage: "First"
+      steps:
+#        - git "https://github.boozallencsn.com/NIEM/niem-webui.git"
+        - sh "ls -la"
+        
+    - stage: "Second"
+      steps:
+        - sh "apt update -y"
+        - sh "apt install docker.io -y"
+#        - sh "cd niem-webui"
+        - sh "sleep 500"
+        - sh "docker built -t latest ."
+        
+####

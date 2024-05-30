@@ -1,0 +1,436 @@
+﻿ns_prefix,parent_property_name,property_name,type_prefix,type_name,definition
+nc,Activity,Activity,nc,ActivityType,"A single or set of related actions, events, or process steps."
+nc,Activity,ActivityActualDuration,niem-xs,duration,An actual duration of an activity.
+nc,Activity,ActivityApprovedIndicator,niem-xs,boolean,True if the activity request was approved; false otherwise.
+nc,Activity,ActivityAssignedDate,nc,DateType,A date on which an activity was assigned.
+nc,Activity,ActivityAugmentationPoint,,,An augmentation point for ActivityType.
+nc,Activity,ActivityCapacityQuantity,nc,QuantityType,A number for the specified maximum enrollment capacity of an activity.
+nc,Activity,ActivityCategoryAbstract,,,A data concept for a kind of activity.
+nc,Activity,ActivityComment,nc,CommentType,A comment about the activity.
+nc,Activity,ActivityCompletedIndicator,niem-xs,boolean,True if an activity has ended; false otherwise.
+nc,Activity,ActivityContactEntity,nc,EntityType,A person or organization to contact for additional information about an activity.
+nc,Activity,ActivityDate,nc,DateType,A date of an activity.
+nc,Activity,ActivityDescriptionText,nc,TextType,A description of an activity.
+nc,Activity,ActivityDisposition,nc,DispositionType,A result or outcome of an activity.
+nc,Activity,ActivityDueDate,nc,DateType,A date when an activity is expected to be completed.
+nc,Activity,ActivityEffectiveDate,nc,DateType,A date when an activity is ready for service or action.
+nc,Activity,ActivityEstimatedDuration,niem-xs,duration,An expected amount of time an activity should last.
+nc,Activity,ActivityFrequencyText,nc,TextType,A description of the number of occurrences of an activity over a period of time.
+nc,Activity,ActivityIdentification,nc,IdentificationType,An identification that references an activity.
+nc,Activity,ActivityLocation,nc,LocationType,A location of an activity.
+nc,Activity,ActivityName,nc,TextType,A name of an activity.
+nc,Activity,ActivityNarrative,nc,CommentType,An account of an activity as reported by an observer.
+nc,Activity,ActivityPrescribedDuration,niem-xs,duration,A prescribed period of time allowed or required for an activity.
+nc,Activity,ActivityReasonAbstract,,,A data concept for a reason for an activity.
+nc,Activity,ActivityReportedDate,nc,DateType,A date an activity was reported to some entity.
+nc,Activity,ActivityRequestedDate,nc,DateType,A date an activity was requested by an entity.
+nc,Activity,ActivityScheduledDate,nc,DateType,A date when an activity is scheduled.
+nc,Activity,ActivitySequenceNumeric,nc,NumericType,A numerical identifier across multiple activities to define the order that they should be scheduled and undertaken.
+nc,Activity,ActivityStatus,nc,StatusType,A status of an activity.
+nc,Activity,ActivityVerifiedDate,nc,DateType,A date when an activity is verified.
+nc,Address,Address,nc,AddressType,"A set of location information, often described by postal information."
+nc,Address,AddressAugmentationPoint,,,An augmentation point for AddressType.
+nc,Address,AddressCategoryAbstract,,,A data concept for a kind of address.
+nc,Address,AddressCityName,nc,ProperNameTextType,A name of a city or town.
+nc,Address,AddressCountry,nc,CountryType,"A country, territory, dependency, or other such geopolitical subdivision of a location."
+nc,Address,AddressCountyAbstract,,,"A data concept for a county, parish, vicinage, or other such geopolitical subdivision of a state."
+nc,Address,AddressDeliveryPointAbstract,,,A data concept for a single place or unit at which mail is delivered.
+nc,Address,AddressFullText,nc,TextType,A complete address.
+nc,Address,AddressPostalCode,niem-xs,string,An identifier of a post office-assigned zone for an address.
+nc,Address,AddressPostalExtensionCode,niem-xs,string,An identifier of a smaller area within a post office-assigned zone for an address.
+nc,Address,AddressPrivateMailboxText,nc,TextType,A private mailbox within a company.
+nc,Address,AddressRecipientName,nc,TextType,"A name of a person, organization, or other recipient to whom physical mail may be sent."
+nc,Address,AddressSecondaryUnitText,nc,TextType,A particular unit within a larger unit or grouping at a location.
+nc,Address,AddressState,nc,StateType,"A state, commonwealth, province, or other such geopolitical subdivision of a country."
+nc,Address,AddressUrbanizationName,nc,TextType,"An urbanization denotes an area, sector, or residential development within a geographic area. Commonly used in Puerto Rican urban areas, it is an important part of the addressing format, as it describes the location of a specific street whose name may occur multiple times within the same ZIP Code."
+nc,Association,Association,nc,AssociationType,"An association, connection, relationship, or involvement somehow linking people, things, and/or activities together."
+nc,Association,AssociationAugmentationPoint,,,An augmentation point for AssociationType.
+nc,Association,AssociationDateRange,nc,DateRangeType,A date range in which an association occurs.
+nc,Association,AssociationDescriptionText,nc,TextType,A description of an association.
+nc,Case,Case,nc,CaseType,An aggregation of information about a set of related activities and events.
+nc,Case,CaseAugmentationPoint,,,An augmentation point for CaseType.
+nc,Case,CaseCategoryAbstract,,,A data concept for a kind of case.
+nc,Case,CaseDocketID,niem-xs,string,An identifier used to reference a case docket.
+nc,Case,CaseFiling,nc,DocumentType,A document or other piece of information filed by someone or something involved in a case.
+nc,Case,CaseGeneralCategoryAbstract,,,A data concept for a broadly defined kind of case.
+nc,Case,CaseResolutionText,nc,TextType,A result of a case.
+nc,Case,CaseSubCategoryAbstract,,,A data concept for a more specific classification of a kind of case.
+nc,Case,CaseTitleText,nc,TextType,An official name of a case.
+nc,Case,CaseTrackingID,niem-xs,string,An identifier used to track a case.
+nc,Case,CaseYearDate,niem-xs,gYear,A year a case is opened.
+nc,Document,Document,nc,DocumentType,A paper or electronic document.
+nc,Document,DocumentApprovedIndicator,niem-xs,boolean,True if a document has been approved; false otherwise.
+nc,Document,DocumentAugmentationPoint,,,An augmentation point for DocumentType.
+nc,Document,DocumentAuthor,nc,EntityType,An entity primarily responsible for creating the intellectual content of the resource.
+nc,Document,DocumentCategoryAbstract,,,A data concept for a kind of document.
+nc,Document,DocumentCategoryDescriptionText,nc,TextType,A description of a kind of information in a document.
+nc,Document,DocumentContentAbstract,,,A data concept for the content of a document.
+nc,Document,DocumentContentListText,nc,TextType,"A list of the chapters, sections, or other divisions of a document."
+nc,Document,DocumentContributor,nc,EntityType,An entity responsible for making contributions to the content of the resource.
+nc,Document,DocumentCopyrightIndicator,niem-xs,boolean,True if a document is copyrighted; false otherwise.
+nc,Document,DocumentCountry,nc,CountryType,A country being discussed in a document.
+nc,Document,DocumentCoverageAbstract,,,A data concept for an extent or scope of the content of the resource.
+nc,Document,DocumentCreationDate,nc,DateType,A date a document was created.
+nc,Document,DocumentDescriptionText,nc,TextType,A description of the content of a document.
+nc,Document,DocumentDispositionAuthorityName,nc,TextType,A name of an authority designated to handle or process information in a document.
+nc,Document,DocumentDispositionInstructionText,nc,TextType,An instruction on how to handle or process information in a document.
+nc,Document,DocumentDisputedIndicator,niem-xs,boolean,True if the accuracy of a document is disputed; false otherwise.
+nc,Document,DocumentDisputedReasonAbstract,,,A data concept for a reason why the accuracy of a document is disputed.
+nc,Document,DocumentEffectiveDate,nc,DateType,"A date in which the content or action becomes enforceable, active, or effective."
+nc,Document,DocumentEntrySubmitter,nc,PersonType,A person who contributed an entry in a document.
+nc,Document,DocumentEUDataPrivacyIndicator,niem-xs,boolean,True if the data is protected under the EU Data Protection Regulation 2016-679 and should be treated differently; false otherwise.
+nc,Document,DocumentExpirationDate,nc,DateType,A date after which the document is no longer valid. It may indicate a document should be removed from a registry or index.
+nc,Document,DocumentFileControlID,niem-xs,string,An identifier assigned to a document to locate it within a file control system.
+nc,Document,DocumentFiledDate,nc,DateType,A date a document was officially filed with an organization or agency.
+nc,Document,DocumentFileExtensionText,nc,TextType,"A file extension of an electronic document. The file extension should correspond appropriately with the document format information, if provided."
+nc,Document,DocumentFileName,nc,TextType,A file name of an electronic document.
+nc,Document,DocumentFormatAbstract,,,"A data concept for a file format, content type (e.g., a MIME type), or physical format of a document."
+nc,Document,DocumentFormatCategoryAbstract,,,A data concept for a kind of classification system used to define the specific format of a binary object or file.
+nc,Document,DocumentGroupID,niem-xs,string,An identifier of a group to which a document belongs.
+nc,Document,DocumentIdentification,nc,IdentificationType,An identification that references a document.
+nc,Document,DocumentInformationCutOffDate,nc,DateType,A date after which contributions to the content of a document will no longer be accepted.
+nc,Document,DocumentIntelligenceCategoryAbstract,,,A data concept for a nature or genre of the resource.
+nc,Document,DocumentIssuanceLocation,nc,LocationType,A location from which a document was issued.
+nc,Document,DocumentIssueDate,nc,DateType,"A date at which a document was issued and when appropriate, signed or otherwise authenticated."
+nc,Document,DocumentKeywordAbstract,,,A data concept for a significant word or phrase that describes the overall content of a document or its main topic.
+nc,Document,DocumentLanguage,nc,LanguageType,A language of the content of the resource.
+nc,Document,DocumentLastModifiedDate,nc,DateType,A date a document was last changed.
+nc,Document,DocumentLocation,nc,LocationType,A location of a physical document.
+nc,Document,DocumentLocationURI,niem-xs,anyURI,A location of an electronic representation of a document.
+nc,Document,DocumentManagementCyclePeriodText,nc,TextType,A review or update cycle period for a document.
+nc,Document,DocumentOtherRecipient,nc,EntityType,A name of additional addressees.
+nc,Document,DocumentPermanentRecordIndicator,niem-xs,boolean,True if a document is to be kept as a permanent record; false otherwise.
+nc,Document,DocumentPhysicalMediumCategoryAbstract,,,A data concept for a material or physical carrier for storing a document.
+nc,Document,DocumentPhysicalMediumText,nc,TextType,A material or physical carrier for storing a document.
+nc,Document,DocumentPostDate,nc,DateType,A date a document is entered or posted to an information system or network; used when the date of posting is different from the date on which a document was officially filed.
+nc,Document,DocumentPrivacyActIndicator,niem-xs,boolean,True if a document is categorized as containing personal information subject to protection by the Privacy Act; false otherwise.
+nc,Document,DocumentPublicationDate,nc,DateType,A date of the first public dissemination of the content in any media.
+nc,Document,DocumentReceivedDate,nc,DateType,A date a transmitted document was received.
+nc,Document,DocumentRecipient,nc,EntityType,An entity that is a target or intended recipient of a document.
+nc,Document,DocumentRelatedResourceText,nc,TextType,A reference to another document or resource related to the document.
+nc,Document,DocumentRightsText,nc,TextType,"A right held in and over the resource. Rights are the constraints applied to assure the protection of privacy or intellectual property, and any special restrictions, limitations or warning on using a shared resource."
+nc,Document,DocumentSensitivityAbstract,,,"A data concept for a characterization of the sensitivity, security, or privacy level of a document."
+nc,Document,DocumentSequenceID,niem-xs,string,An identifier that determines the document order in a set of related documents.
+nc,Document,DocumentSoftware,nc,SoftwareType,A name of a computer application used to process a document.
+nc,Document,DocumentSource,nc,EntityType,An entity that was the source of a document.
+nc,Document,DocumentSourceText,nc,TextType,A source from which the content of a document is derived.
+nc,Document,DocumentStatus,nc,StatusType,A status of a document.
+nc,Document,DocumentStatusCategoryAbstract,,,A data concept for a kind of status of a document.
+nc,Document,DocumentSubjectAbstract,,,A data concept for a subject code systems used and the appropriate subject code assigned to the document.
+nc,Document,DocumentSubmissionAmount,nc,AmountType,A fee or price required to submit a document.
+nc,Document,DocumentSubmitter,nc,EntityType,An entity responsible for making the resource available.
+nc,Document,DocumentSummaryText,nc,TextType,"A short description of the subject, content, and key points of a document."
+nc,Document,DocumentSupplementalMarkingText,nc,TextType,A marking made on a document that is not part of the original content and that was added after a document was finalized.
+nc,Document,DocumentTitleAlternativeText,nc,TextType,A title used as a substitute or alternative to the formal title of a document.
+nc,Document,DocumentTitleText,nc,TextType,A name given to a document.
+nc,Document,DocumentVitalIndicator,niem-xs,boolean,True if a document is categorized as a vital record by the originating agency; false otherwise.
+nc,Entity,Entity,nc,EntityType,"A person, organization, or item."
+nc,Entity,EntityAugmentationPoint,,,An augmentation point for EntityType.
+nc,Entity,EntityLegalIndicator,niem-xs,boolean,True if an entity is capable of bearing legal rights and responsibilities; false otherwise.
+nc,Entity,EntityRepresentation,,,A data concept for a representation of an entity.
+nc,Facility,Facility,nc,FacilityType,"A single or set of buildings, places, or structures that together provide a particular service."
+nc,Facility,FacilityAugmentationPoint,,,An augmentation point for FacilityType.
+nc,Facility,FacilityCapacityDescriptionText,nc,TextType,A description of the number of people a facility can manage at a time.
+nc,Facility,FacilityCapacityQuantity,niem-xs,nonNegativeInteger,A number of people a facility can manage at a time.
+nc,Facility,FacilityCategory,nc,FacilityFunctionType,A category of facility.
+nc,Facility,FacilityContactInformation,nc,ContactInformationType,A method of contact for a facility.
+nc,Facility,FacilityContainsItem,nc,ItemType,An item contained by a facility.
+nc,Facility,FacilityDescriptionText,nc,TextType,A description of a facility.
+nc,Facility,FacilityIdentification,nc,IdentificationType,An identification assigned to a facility.
+nc,Facility,FacilityLocation,nc,LocationType,A location of a facility.
+nc,Facility,FacilityMaxOccupancyQuantity,niem-xs,nonNegativeInteger,A maximum number of people that are authorized by permit to be contained in a facility at the same time.
+nc,Facility,FacilityMemberCategoryText,nc,TextType,A kind of occupant a facility manages.
+nc,Facility,FacilityName,nc,ProperNameTextType,A name of a facility.
+nc,Facility,FacilityOperatingSchedule,nc,ScheduleType,"A schedule providing the beginning and ending hours of operation by weekday, for a designated time period."
+nc,Facility,FacilityOperationalStatus,nc,StatusType,An operational status of a facility.
+nc,Facility,FacilitySecurityLevelAbstract,,,A data concept for a level of security at which a facility operates.
+nc,Facility,FacilitySiteDiagram,nc,ImageType,A diagram of the layout of a facility.
+nc,Facility,FacilitySystemIdentification,nc,SystemIdentificationType,An identification of a computing system that supports a facility's activities.
+nc,Facility,FacilitySystemIPAddressID,niem-xs,string,An IP address of a computing system that supports a facility's activities.
+nc,Facility,FacilityUsage,nc,FacilityFunctionType,A functional usage of a facility.
+nc,Identification,Identification,nc,IdentificationType,An identification to represent an identity.
+nc,Identification,IdentificationAugmentationPoint,,,An augmentation point for IdentificationType.
+nc,Identification,IdentificationCategoryAbstract,,,A data concept for a kind of identification.
+nc,Identification,IdentificationCategoryDescriptionText,nc,TextType,A description of a kind of identification.
+nc,Identification,IdentificationEffectiveDate,nc,DateType,A date an identification takes effect.
+nc,Identification,IdentificationExpirationDate,nc,DateType,A date after which an identification is no longer valid.
+nc,Identification,IdentificationID,niem-xs,string,An identifier.
+nc,Identification,IdentificationJurisdiction,nc,JurisdictionType,"An area, region, or unit where a unique identification is issued."
+nc,Identification,IdentificationSourceText,nc,TextType,"A person, organization, or locale which issues an identification."
+nc,Identification,IdentificationStatus,nc,StatusType,A status of an identification.
+nc,Item,Item,nc,ItemType,An article or thing.
+nc,Item,ItemActionText,nc,TextType,An action that was taken against a property item.
+nc,Item,ItemAgeMeasure ,nc,TimeMeasureType,An age of an item.
+nc,Item,ItemAugmentationPoint,,,An augmentation point for ItemType.
+nc,Item,ItemBarCodeIdentification,nc,IdentificationType,A bar code identification assigned to a property item.
+nc,Item,ItemBinary,nc,BinaryType,A binary representation of an item.
+nc,Item,ItemBrandName,nc,ProperNameTextType,A distinctive name that identifies a manufacturer of a property item.
+nc,Item,ItemCategoryAbstract ,,,A data concept for a kind of item.
+nc,Item,ItemColorDescriptionText,nc,TextType,A description of the overall color of an item.
+nc,Item,ItemColorPrimaryAbstract,,,A data concept for a primary color of an item.
+nc,Item,ItemColorSecondaryAbstract,,,A data concept for a secondary color of an item.
+nc,Item,ItemConditionAbstract,,,A data concept for a state or appearance of an item.
+nc,Item,ItemCurrentResaleValue,nc,ItemValueType,An amount of money for which an item could currently be sold.
+nc,Item,ItemDealerIdentification,nc,IdentificationType,An identification assigned to an item by a dealer.
+nc,Item,ItemDescriptionText,nc,TextType,A description of an item.
+nc,Item,ItemDisposition,nc,ItemDispositionType,A result or outcome that happens to an item after it has been handled or processed.
+nc,Item,ItemFirstSoldYearDate,niem-xs,gYear,A calendar year in which an item was first sold.
+nc,Item,ItemHeightMeasure,nc,LengthMeasureType,A measurement of the height of an item.
+nc,Item,ItemImage,nc,ImageType,A binary representation of an image of an item.
+nc,Item,ItemLeaseIndicator,niem-xs,boolean,True if an item is leased; false otherwise.
+nc,Item,ItemLengthMeasure,nc,LengthMeasureType,A measurement of the length of an item.
+nc,Item,ItemMakeAbstract,,,A data concept for a manufacturer that produced an item.
+nc,Item,ItemModelName,nc,ProperNameTextType,A name of a specific design or kind of item made by a manufacturer.
+nc,Item,ItemModelYearDate,niem-xs,gYear,A year in which an item was manufactured or produced.
+nc,Item,ItemName,nc,TextType,A name of an item.
+nc,Item,ItemOtherIdentification,nc,IdentificationType,An identification assigned to an item.
+nc,Item,ItemOwner,nc,EntityType,An entity which owns a property item.
+nc,Item,ItemOwnerAppliedID,niem-xs,string,An identifier applied to an item by the owner.
+nc,Item,ItemOwnerPurchasedValue,nc,ItemValueType,An amount of money a current owner paid to purchase a property item.
+nc,Item,ItemOwnershipCategoryAbstract,,,A data concept for a kind of ownership of an item.
+nc,Item,ItemPossessionDescriptionText,nc,TextType,A description of how or why a party other than the owner came to possess a property item.
+nc,Item,ItemPossessor,nc,EntityType,An entity other than the owner which has possession of an item.
+nc,Item,ItemQuantity,nc,QuantityType,A count of the individual units which make up an item.
+nc,Item,ItemReceiptIdentification,nc,IdentificationType,An identification issued to an item when taken into possession for official purposes.
+nc,Item,ItemRentalIndicator,niem-xs,boolean,True if an item is rented; false otherwise.
+nc,Item,ItemRFIdentification,nc,IdentificationType,An identification of an item based on radio waves.
+nc,Item,ItemSalesTaxPercent,nc,PercentType,A tax rate as a percentage used for computing the sales tax on the purchase of an item.
+nc,Item,ItemSerialIdentification,nc,IdentificationType,"An identification inscribed on or attached to a part, collection of parts, or complete unit by the manufacturer."
+nc,Item,ItemSizeDescriptionText,nc,TextType,A description of the size or physical dimensions of an item.
+nc,Item,ItemStateIdentification,nc,IdentificationType,A state-assigned identification for an item.
+nc,Item,ItemStatus,nc,StatusType,A status of an item.
+nc,Item,ItemStyleAbstract,,,A data concept for a style of an item.
+nc,Item,ItemUsageText,nc,TextType,A manner or way in which an item is used.
+nc,Item,ItemValue,nc,ItemValueType,An evaluation of the monetary worth of an item.
+nc,Item,ItemVisibleID,niem-xs,string,An identifier of an item that is visible on the item itself.
+nc,Item,ItemWeightMeasure,nc,WeightMeasureType,A measurement of the weight of an item.
+nc,Item,ItemWidthMeasure,nc,LengthMeasureType,A measurement of the width of an item.
+nc,Location,Location,nc,LocationType,A geospatial location.
+nc,Location,LocationAddressAbstract,,,"A data concept for a set of information, such as postal information, used to describe a location."
+nc,Location,LocationArea,nc,AreaType,A location identified by geographic boundaries.
+nc,Location,LocationAugmentationPoint,,,An augmentation point for LocationType.
+nc,Location,LocationCategoryAbstract,,,A data concept for a kind or functional description of a location.
+nc,Location,LocationContactInformation,nc,ContactInformationType,A set of contact information for a location.
+nc,Location,LocationDescriptionText,nc,TextType,A description of a location.
+nc,Location,LocationDirectionsText,nc,TextType,A set of directions to a location.
+nc,Location,LocationGeospatialCoordinateAbstract,,,A data concept for a geospatial location.
+nc,Location,LocationHeightAbstract,,,A data concept for a measure of the height of a location.
+nc,Location,LocationIdentification,nc,IdentificationType,An identification of a Location.
+nc,Location,LocationLandmarkAbstract,,,A data concept for a distinguishing physical feature at a location.
+nc,Location,LocationLocale,nc,LocaleType,A geopolitical area.
+nc,Location,LocationMapLocation,nc,MapLocationType,A location identified by map or grid coordinates.
+nc,Location,LocationName,nc,ProperNameTextType,A name of a location.
+nc,Location,LocationPart,nc,LocationPartType,"A unit within a facility, building, or structure at a location."
+nc,Location,LocationRangeDescriptionText,nc,TextType,A description of the boundary or range of a location.
+nc,Location,LocationRelativeLocation,nc,RelativeLocationType,A location identified by its proximity to another location.
+nc,Location,LocationSurroundingAreaDescriptionText,nc,TextType,A description of the immediate area around a location.
+nc,Metadata,Metadata,nc,MetadataType,Information that further qualifies primary data; data about data.
+nc,Metadata,AdministrativeID,niem-xs,string,An identifier generated locally within a processing system used to identify sub-records within an entity of interest record.
+nc,Metadata,CaveatText,nc,TextType,A warning or caution about the information.
+nc,Metadata,Comment,nc,CommentType,"A comment, note, or remark."
+nc,Metadata,ConfidencePercent,nc,PercentType,A value that indicates belief that content is accurate or trustworthy.
+nc,Metadata,CreatorName,nc,TextType,A name of an entity primarily responsible for generating or producing the information.
+nc,Metadata,DescriptionText,nc,TextType,A description of the information.
+nc,Metadata,DistributionText,nc,TextType,A set of allowable recipients of information; dissemination statement or instructions.
+nc,Metadata,EffectiveDate,nc,DateType,A date that information take effect.
+nc,Metadata,EmptyReasonAbstract,,,A data concept for a reason why a data value was not provided.
+nc,Metadata,EmptyReasonDescriptionText,nc,TextType,A description for why a data value was not provided.
+nc,Metadata,ExpirationDate,nc,DateType,A date after which information is no longer valid.
+nc,Metadata,Language,nc,LanguageType,"A method of human communication, either spoken or written, consisting of the use of words in a structured and conventional way."
+nc,Metadata,LastUpdatedDate,nc,DateType,A date information was last modified.
+nc,Metadata,LastVerifiedDate,nc,DateType,A date information was last checked for accuracy.
+nc,Metadata,ProbabilityPercent,nc,PercentType,A decimal value that indicates computed likelihood that what the content is true or accurate. This value is based on a calculation of probability of occurrence or truth.
+nc,Metadata,PublisherName,nc,TextType,A name of an entity responsible for the publication of the information.
+nc,Metadata,QualityComment ,nc,CommentType,"A remark, explanation, or observation regarding the accuracy or trustworthiness of the information."
+nc,Metadata,ReleaseDate,nc,DateType,A date the information was first released for dissemination.
+nc,Metadata,ReportedDate,nc,DateType,"A date information was observed, measured, identified, or became known."
+nc,Metadata,ReportingOrganizationAbstract,,,A data concept for an organization that provided the information.
+nc,Metadata,ReportingPersonAbstract,,,A data concept for a person who provided the information.
+nc,Metadata,ReportingPersonRoleAbstract ,,,"A data concept for a type, responsibility, or role of a person who provided the information."
+nc,Metadata,RepositoryID ,niem-xs,string,An identifier assigned to the repository from which the information originated.
+nc,Metadata,SensitivityAbstract,,,A data concept for a sensitivity level of the information.
+nc,Metadata,SourceContactPersonAbstract,,,A data concept for a person who can answer questions about the information.
+nc,Metadata,SourceIDText,nc,TextType,A number or string set by a data provider so that information that is sent can be retraced back to its source.
+nc,Metadata,SourceText ,nc,TextType,"A name, identifier, or reference of a resource from which the information was taken."
+nc,Organization,Organization,nc,OrganizationType,A unit which conducts some sort of business or operations.
+nc,Organization,OrganizationAbbreviationText,nc,TextType,"An abbreviation, acronym, or code for an organization name."
+nc,Organization,OrganizationActiveIndicator,niem-xs,boolean,True if an organization is active; false if it is inactive.
+nc,Organization,OrganizationActivityAbstract,,,A data concept for an activity that an organization is known or thought to be involved with.
+nc,Organization,OrganizationAugmentationPoint,,,An augmentation point for OrganizationType.
+nc,Organization,OrganizationBranchName,nc,TextType,A name of the chapter or branch by which an organization is known within a larger group of organizations.
+nc,Organization,OrganizationCategoryAbstract,,,A data concept for a kind or functional type of organization.
+nc,Organization,OrganizationDayContactInformation,nc,ContactInformationType,A means of contacting an organization during daytime hours.
+nc,Organization,OrganizationDescriptionText,nc,TextType,A description of an organization.
+nc,Organization,OrganizationDoingBusinessAsName,nc,TextType,A name an organization uses for conducting business.
+nc,Organization,OrganizationEmergencyContactInformation,nc,ContactInformationType,A means of contacting an organization in the event of an emergency.
+nc,Organization,OrganizationEstablishedDate,nc,DateType,A date an organization was started.
+nc,Organization,OrganizationEveningContactInformation,nc,ContactInformationType,A means of contacting an organization during evening or early night hours.
+nc,Organization,OrganizationForeignAffiliate,nc,OrganizationType,A foreign organization that has some relationship or association with an organization.
+nc,Organization,OrganizationIdentification,nc,IdentificationType,An identification that references an organization.
+nc,Organization,OrganizationIncorporatedIndicator,niem-xs,boolean,True if an organization is incorporated; false otherwise.
+nc,Organization,OrganizationIncorporationDate,nc,DateType,"A date an organization incorporated (e.g., corporation)."
+nc,Organization,OrganizationIncorporationLocation,nc,LocationType,A location where an organization incorporated.
+nc,Organization,OrganizationJurisdiction,nc,JurisdictionType,An area of service or jurisdiction an organization has over a region.
+nc,Organization,OrganizationLEIIdentification,nc,IdentificationType,"An identification for a Legal Entity Identifier (LEI), to uniquely identify legally distinct entities that engage in financial transactions."
+nc,Organization,OrganizationLicenseIdentification,nc,IdentificationType,A license identification for an organization.
+nc,Organization,OrganizationLocalIdentification,nc,IdentificationType,An identification assigned at a local level to an organization.
+nc,Organization,OrganizationLocation,nc,LocationType,A location of an organization.
+nc,Organization,OrganizationName,nc,TextType,A name of an organization.
+nc,Organization,OrganizationNameEffectiveDate,nc,DateType,A date the organization name became effective.
+nc,Organization,OrganizationNameTerminationDate,nc,DateType,A date the organization name became invalid.
+nc,Organization,OrganizationNightContactInformation,nc,ContactInformationType,A means of contacting an organization during late-night hours.
+nc,Organization,OrganizationOtherIdentification,nc,IdentificationType,An alternate identification assigned to an organization.
+nc,Organization,OrganizationParentAbstract,,,"A data concept for an entity that owns, controls, or operates the organization."
+nc,Organization,OrganizationPrimaryContactInformation,nc,ContactInformationType,A preferred means of contacting an organization.
+nc,Organization,OrganizationPrincipalOfficial,nc,PersonType,A chief or high ranking executive of an organization.
+nc,Organization,OrganizationServiceHoursAbstract,,,A data concept for an availability of an organization.
+nc,Organization,OrganizationSizeAbstract,,,A data concept for a size of an organization.
+nc,Organization,OrganizationStatus,nc,StatusType,A status of an organization.
+nc,Organization,OrganizationSubUnit ,nc,OrganizationType,A division of an organization.
+nc,Organization,OrganizationSubUnitName,nc,TextType,A name of a subdivision of an organization.
+nc,Organization,OrganizationTaxIdentification,nc,IdentificationType,A tax identification assigned to an organization.
+nc,Organization,OrganizationTerminationDate,nc,DateType,A date an organization went out of business.
+nc,Organization,OrganizationUnitName,nc,TextType,A name of a high-level division of an organization.
+nc,Organization,OrganizationValidDate,nc,DateType,A date to which the organizational unit is valid.
+nc,Person,Person,nc,PersonType,A human being.
+nc,Person,EmployeeContactInformation,nc,ContactInformationType,A means of contacting a person at work.
+nc,Person,PersonAccentText,nc,TextType,A manner of pronunciation; a way of pronouncing words that may indicate the place of origin or social background of the speaker.
+nc,Person,PersonAgeDescriptionText,nc,TextType,A general description of the age of a person.
+nc,Person,PersonAgeMeasure,nc,TimeMeasureType,A measurement of the age of a person.
+nc,Person,PersonAugmentationPoint,,,An augmentation point for PersonType.
+nc,Person,PersonBirthDate,nc,DateType,A date a person was born.
+nc,Person,PersonBirthLocation,nc,LocationType,A location where a person was born.
+nc,Person,PersonBloodTypeAbstract,,,A data concept for a blood group and RH factor of a person.
+nc,Person,PersonBodyXRaysAvailableAbstract ,,,A data concept for the availability of an X-ray for a specific body part for a person.
+nc,Person,PersonBuildAbstract,,,A data concept for a person's physique or body shape.
+nc,Person,PersonCapability,nc,CapabilityType,A capacity or ability of a person.
+nc,Person,PersonCircumcisionIndicator,niem-xs,boolean,True if a person is circumcised; false otherwise.
+nc,Person,PersonCitizenship,nc,PersonCitizenType,"A person's position or status with a country that assigns rights, duties, and privileges because of the birth or naturalization of the person in that country."
+nc,Person,PersonComplexionAbstract,,,A data concept for an appearance or condition of the skin of a person.
+nc,Person,PersonContactInformation,nc,ContactInformationType,A means of contacting a person.
+nc,Person,PersonDeathDate,nc,DateType,A date a person died or was declared legally dead.
+nc,Person,PersonDependentQuantity,nc,QuantityType,A number of people dependent upon a person as their primary means of support.
+nc,Person,PersonDescriptionText,nc,TextType,A description of a person.
+nc,Person,PersonDigitalImage,nc,ImageType,A photograph or image of a person in a digital format.
+nc,Person,PersonDigitizedSignatureImage,nc,ImageType,An image of a handwritten signature of a person.
+nc,Person,PersonDisguiseDescriptionText,nc,TextType,A description of something a person wears to conceal or mislead others as to the true appearance or identity of that person.
+nc,Person,PersonEducation,nc,EducationType,A person's educational background.
+nc,Person,PersonEmergencyContactInformation,nc,ContactInformationType,A means of contacting someone in the event of an emergency.
+nc,Person,PersonEmployedIndicator,niem-xs,boolean,True if a person is employed; false if a person is unemployed.
+nc,Person,PersonEthnicityAbstract,,,A data concept for a cultural lineage of a person.
+nc,Person,PersonEyeColorAbstract,,,A data concept for a color of the eyes of a person.
+nc,Person,PersonEyewearAbstract,,,A data concept for a kind of glasses or other eyewear.
+nc,Person,PersonFacialHairAbstract ,,,A data concept for a kind of facial hair.
+nc,Person,PersonGeneralAppearanceDescriptionText,nc,TextType,A description of the way a person looks and is presented overall.
+nc,Person,PersonHairAppearanceText,nc,TextType,An overall appearance of the hair of a person.
+nc,Person,PersonHairCategoryAbstract,,,"A data concept for a kind of hair of a person, such as wavy or straight."
+nc,Person,PersonHairColorAbstract ,,,A data concept for a color of the hair of a person.
+nc,Person,PersonHairLengthAbstract,,,A data concept for a length of hair of a person.
+nc,Person,PersonHairStyleAbstract,,,A data concept for a style or cut of hair worn by a person.
+nc,Person,PersonHandednessAbstract ,,,A data concept for a hand with which a person is more adept using.
+nc,Person,PersonHeightDescriptionText,nc,TextType,A description of the height of a person.
+nc,Person,PersonHeightMeasure,nc,LengthMeasureType,A measurement of the height of a person.
+nc,Person,PersonHomeContactInformation,nc,ContactInformationType,A means of contacting a person at home.
+nc,Person,PersonHumanResourceIdentification,nc,IdentificationType,A human resources or employment identification assigned to a person.
+nc,Person,PersonInjury,nc,InjuryType,A form of physical harm or damage sustained by a person.
+nc,Person,PersonJewelryDescriptionText,nc,TextType,A description of adornments a person wears.
+nc,Person,PersonJobTitleText,nc,TextType,A title or label that briefly describes the position or kind of work a person does.
+nc,Person,PersonLanguageEnglishIndicator,niem-xs,boolean,True if a person understands and speaks English; false otherwise.
+nc,Person,PersonLearningDisabilityAbstract,,,A data concept for a disorder of a person which can cause difficulties in learning something.
+nc,Person,PersonLicenseIdentification,nc,IdentificationType,An identification that references a license certification or registration of a person for some purpose.
+nc,Person,PersonLivingIndicator,nc,boolean,True if a person is alive; false if a person is dead.
+nc,Person,PersonMedicalCondition,nc,MedicalConditionType,"A state of health for a person, on-going or present."
+nc,Person,PersonMedicalDescriptionText,nc,TextType,A description of the overall health of a person.
+nc,Person,PersonMedicalFileIndicator,niem-xs,boolean,True if a medical history file is known to exist for a person; false otherwise.
+nc,Person,PersonMedicationRequiredText,nc,TextType,A medication and dosage required for a person.
+nc,Person,PersonMentalStateAbstract,,,A data concept for a mental condition of a person.
+nc,Person,PersonMilitarySummary,nc,MilitarySummaryType,A service of a person in a military.
+nc,Person,PersonMoodDescriptionText,nc,TextType,A description of a state of feeling of a person.
+nc,Person,PersonName,nc,PersonNameType,A combination of names and/or titles by which a person is known.
+nc,Person,PersonNationalIdentification,nc,IdentificationType,An identification that references a person within a country but is not based on fingerprint.
+nc,Person,PersonNationality,nc,PersonNationalityType,A person's position or status with a country that grants a person citizenship or a country in which a person is deemed a national.
+nc,Person,PersonOrganDonorAbstract,,,A data concept for an organ a person is willing to donate upon death.
+nc,Person,PersonOrganDonorIndicator,niem-xs,boolean,True if a person has given consent to be used as an organ donor upon death; false otherwise.
+nc,Person,PersonOtherIdentification,nc,IdentificationType,An identification with a kind that is not explicitly defined in the standard that refers to a person within a certain domain.
+nc,Person,PersonPassportIdentification,nc,IdentificationType,An identification of a passport issued to a person.
+nc,Person,PersonPhysicalDisabilityText,nc,TextType,A physical disability of a person.
+nc,Person,PersonPhysicalFeature,nc,PhysicalFeatureType,A prominent or easily identifiable aspect of a person.
+nc,Person,PersonPrimaryLanguage,nc,PersonLanguageType,A capacity of a person for a language with which that person has the strongest familiarity.
+nc,Person,PersonRaceAbstract,,,A data concept for a classification of a person based on factors such as geographical locations and genetics.
+nc,Person,PersonReligionAbstract,,,A data concept for a religion to which a person subscribes or believes; a categorization of spiritual beliefs.
+nc,Person,PersonResidentAbstract,,,"A data concept for a manner of residence a person has in a city, town, community, or other area."
+nc,Person,PersonSecondaryLanguage,nc,PersonLanguageType,A capacity of a person for a language with which that person is not completely fluent.
+nc,Person,PersonSecurityClearanceAbstract,,,A data concept for a formal authorization granting a person access to classified or restricted information.
+nc,Person,PersonSexAbstract,,,A data concept for a gender or sex of a person.
+nc,Person,PersonSexualOrientationAbstract,,,A data concept for a target gender of the sexual interest of a person.
+nc,Person,PersonSkinToneAbstract,,,A data concept for a color or tone of the skin of a person.
+nc,Person,PersonSpeechDescriptionText,nc,TextType,A description of a pattern of speech with which a person speaks.
+nc,Person,PersonSSNIdentification,nc,IdentificationType,A unique identification reference to a living person; assigned by the United States Social Security Administration.
+nc,Person,PersonStateIdentification,nc,IdentificationType,An identification of a person based on a state-issued ID card.
+nc,Person,PersonTaxIdentification,nc,IdentificationType,An identification used to refer to a specific person within the tax system of a country.
+nc,Person,PersonUnemploymentStatus,nc,StatusType,A status of a person's period of unemployment.
+nc,Person,PersonUnionStatusAbstract,,,A data concept for a legal status of a union between two people.
+nc,Person,PersonUSCitizenIndicator,niem-xs,boolean,True if a person is a citizen of the United States; false otherwise.
+nc,Person,PersonVisionPrescriptionText,nc,TextType,A prescription a person needs for corrective lenses or contacts.
+nc,Person,PersonWeightDescriptionText,nc,TextType,A description of the weight of a person.
+nc,Person,PersonWeightMeasure,nc,WeightMeasureType,A measurement of the weight of a person.
+nc,Person,PersonXRayImage,nc,ImageType,An X-Ray image of a person or part of a person.
+nc,PersonEmploymentAssociation,PersonEmploymentAssociation,nc,EmploymentAssociationType,An association between an employee and an employer.
+nc,PersonEmploymentAssociation,Employee,nc,PersonType,A person who works for a business or a person.
+nc,PersonEmploymentAssociation,EmployeeAssignmentAssociation,nc,EmployeeAssignmentAssociationType,An association between an employee and a position or post for which that employee has been temporarily assigned to for some period of time.
+nc,PersonEmploymentAssociation,EmployeeContactInformation,nc,ContactInformationType,A means of contacting a person at work.
+nc,PersonEmploymentAssociation,EmployeeFullTimeIndicator,niem-xs,boolean,True if a person has full-time employment; false otherwise.
+nc,PersonEmploymentAssociation,EmployeeHoursDailyQuantity,nc,QuantityType,A number of hours spent at workplace or working in a typical work day.
+nc,PersonEmploymentAssociation,EmployeeHoursFixedIndicator,niem-xs,boolean,True if the number of hours that employee works each week is fixed; false if the hours are flexible.
+nc,PersonEmploymentAssociation,EmployeeHoursMonthlyQuantity,nc,QuantityType,A typical number of hours spent at workplace or working in a typical month.
+nc,PersonEmploymentAssociation,EmployeeHoursWeeklyQuantity,nc,QuantityType,A number of hours spent at workplace or working in a typical week.
+nc,PersonEmploymentAssociation,EmployeeIdentification,nc,IdentificationType,An employment identification number assigned to a person.
+nc,PersonEmploymentAssociation,EmployeeOccupationAbstract,,,A data concept for a job of an employee.
+nc,PersonEmploymentAssociation,EmployeeOccupationCategoryAbstract,,,A data concept for a general kind of job of an employee.
+nc,PersonEmploymentAssociation,EmployeePayAbstract,,,A data concept for a monetary compensation a person receives for employment.
+nc,PersonEmploymentAssociation,EmployeePayHourlyIndicator,niem-xs,boolean,True if a person is paid on an hourly basis; false if a person is salaried.
+nc,PersonEmploymentAssociation,EmployeePosition,nc,EmploymentPositionType,"A job, post, or group of duties and responsibilities performed by an employee."
+nc,PersonEmploymentAssociation,EmployeeRankAbstract,,,"A data concept for a rank, status, or promotion level of a person within an employment organization."
+nc,PersonEmploymentAssociation,EmployeeSchedule,nc,ScheduleType,A plan for the days and hours that a person will work.
+nc,PersonEmploymentAssociation,EmployeeScheduleFixedIndicator,niem-xs,boolean,True if an employee's weekly scheduled hours are fixed; false if the scheduled hours are flexible.
+nc,PersonEmploymentAssociation,EmployeeShiftAbstract,,,A data concept for a set of hours or time frame during which a person usually works.
+nc,PersonEmploymentAssociation,EmployeeSupervisor,nc,PersonType,A person who oversees and manages an employee.
+nc,PersonEmploymentAssociation,Employer,nc,EmployerType,An organization or person that employs a person.
+nc,PersonEmploymentAssociation,EmploymentAssociationAugmentationPoint,,,An augmentation point for EmploymentAssociationType.
+nc,PersonEmploymentAssociation,EmploymentLengthAbstract,,,A data concept for an amount of time an employment as lasted.
+nc,PersonEmploymentAssociation,EmploymentLocation,nc,LocationType,A location where a person works.
+nc,PersonEmploymentAssociation,EmploymentStatus,nc,StatusType,A status of employment for a person.
+nc,Program,Program,nc,ProgramType,"A set of projects, activities, or services intended to meet a need."
+nc,Program,ProgramAction,nc,ActivityType,A project or service of a program.
+nc,Program,ProgramAdministrator,nc,EntityType,An entity that runs a program.
+nc,Program,ProgramAugmentationPoint,,,An augmentation point for ProgramType.
+nc,Program,ProgramCapacityQuantity,niem-xs,nonNegativeInteger,A maximum number of people that can be enrolled in a program at a time.
+nc,Program,ProgramCondition,nc,ConditionType,A condition that must be met in order for a person to remain in a program.
+nc,Program,ProgramFacility,nc,FacilityType,A place where a program is located.
+nc,Program,ProgramPerson,nc,PersonType,A person who attends a program.
+nc,Program,ProgramPubliclyRunIndicator,niem-xs,boolean,True if a program is run in the public sector; false if the program is run privately.
+nc,Program,ProgramPurposeText,nc,TextType,A purpose or reason for a program.
+nc,Program,ProgramReferral,nc,ReferralType,A recommendation or mandate for a person to attend a program.
+nc,Program,ProgramRelease,nc,ReleaseType,A manner by which a person left a program.
+nc,Program,ProgramResidentialIndicator,niem-xs,boolean,True if a person resides at a program facility; false otherwise.
+nc,Program,ProgramSupervisedIndicator,niem-xs,boolean,True if a person will be officially supervised through the duration of a program; false otherwise.
+nc,Program,ProgramSupervisor,nc,EntityType,An entity that oversees and manages a program.
+nc,Vehicle,Vehicle,nc,VehicleType,"A conveyance designed to carry an operator, passengers and/or cargo, over land."
+nc,Vehicle,VehicleAugmentationPoint,,,An augmentation point for VehicleType.
+nc,Vehicle,VehicleAxleQuantity,niem-xs,nonNegativeInteger,"A count of common axles of rotation of one or more wheels of a vehicle, whether power driven or freely rotating."
+nc,Vehicle,VehicleCMVIndicator,niem-xs,boolean,True if a vehicle is a commercial motor vehicle; false otherwise.
+nc,Vehicle,VehicleColorInteriorAbstract,,,A data concept for a color of the interior of a vehicle.
+nc,Vehicle,VehicleCurrentWeightMeasure,nc,WeightMeasureType,"An observed, estimated, or measured weight of the conveyance."
+nc,Vehicle,VehicleDoorQuantity,niem-xs,nonNegativeInteger,A number of doors on a vehicle.
+nc,Vehicle,VehicleGrossLadenSumWeightMeasure,nc,WeightMeasureType,A sum of values specified by the manufacturer(s) for a truck tractor or trailer for the units that make up a combination.
+nc,Vehicle,VehicleGrossLadenUnitWeightMeasure,nc,WeightMeasureType,"A value specified by the manufacturer for a single unit truck, truck tractor, or trailer."
+nc,Vehicle,VehicleIdentification,nc,IdentificationType,A unique identification for a specific vehicle.
+nc,Vehicle,VehicleMakeAbstract,,,A data concept for a manufacturer of a vehicle.
+nc,Vehicle,VehicleMaximumLoadWeightMeasure,nc,WeightMeasureType,"A maximum load weight intended for the vehicle to transport, assigned at the point of manufacture."
+nc,Vehicle,VehicleModelAbstract,,,A data concept for a specific design or class of vehicle made by a manufacturer.
+nc,Vehicle,VehicleMSRPAmount ,nc,AmountType,A manufacturer's suggested retail price of a vehicle; a price at which a manufacturer recommends a vehicle be sold.
+nc,Vehicle,VehicleOdometerReadingMeasure,nc,LengthMeasureType,A reading of a vehicle odometer to the nearest mile or kilometer.
+nc,Vehicle,VehiclePassengerSafeQuantity,niem-xs,nonNegativeInteger,A total number of people a vehicle is designed to safely transport.
+nc,Vehicle,VehicleSeatingQuantity,niem-xs,nonNegativeInteger,A total number of seats available in a vehicle.
+nc,Vehicle,VehicleTransmissionCategoryAbstract,,,A data concept for a kind of transmission unit in a vehicle.
+nc,Vehicle,VehicleUnladenWeightMeasure,nc,WeightMeasureType,"A weight of a vehicle fully equipped for service, not including the weight of the payload."

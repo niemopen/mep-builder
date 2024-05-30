@@ -1,0 +1,71 @@
+﻿originalRelease,originalPrefix,originalVersionNumber,changeCode,issue,draft,release,newPrefix,newVersionNumber,newURI
+2.1,ansi_d20,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/ansi_d20/3.0/
+2.1,apco,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/apco_event/3.0/
+2.1,atf,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/atf/3.0/
+2.1,can,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/canada_post/3.0/
+2.1,cbrn,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/cbrn/3.0/
+2.1,cbrncl,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/cbrncl/3.0/
+2.1,cyfs,2.1.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/cyfs/3.0/
+2.1,dea,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/dea_ctlsub/3.0/
+2.1,dod_jcs-pub2.0,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/dod_jcs-pub2.0/3.0/
+2.1,edxl,2.1,modified,,,3.0,edxl_rm,3,http://release.niem.gov/niem/codes/edxl_rm/3.0/
+2.1,edxl-cap,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/adapters/edxl-cap/3.0/
+2.1,edxl-de,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/adapters/edxl-de/3.0/
+2.1,edxl-have,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/adapters/edxl-have/3.0/
+2.1,em,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/emergencyManagement/3.0/
+2.1,fbi,2,modified,,,3.0,ncic,3,http://release.niem.gov/niem/codes/fbi_ncic/3.0/
+2.1,fips_10-4,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/fips_10-4/3.0/
+2.1,fips_5-2,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/fips_5-2/3.0/
+2.1,fips_6-4,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/fips_6-4/3.0/
+2.1,fs,2.1,modified,,,3.0,cyfs,3,http://release.niem.gov/niem/domains/cyfs/3.0/
+2.1,geo,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/adapters/geospatial/3.0/
+2.1,have-codes,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/edxl_have/3.0/
+2.1,hazmat,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/dot_hazmat/3.0/
+2.1,i,2,modified,,,3.0,appinfo,3,http://release.niem.gov/niem/appinfo/3.0/
+2.1,im,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/immigration/3.0/
+2.1,intel,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/intelligence/3.0/
+2.1,ip,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/infrastructureProtection/3.0/
+2.1,iso_3166,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/iso_3166-1/3.0/
+2.1,iso_4217,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/iso_4217/3.0/
+2.1,iso_639-3,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/iso_639-3/3.0/
+2.1,it,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/internationalTrade/3.0/
+2.1,j,4.1,modified,,,3.0,,5,http://release.niem.gov/niem/domains/jxdm/5.0/
+2.1,m,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/maritime/3.0/
+2.1,mmucc_2,2.1,modified,,,3.0,mmucc,3,http://release.niem.gov/niem/codes/mmucc/3.0/
+2.1,nc,2,modified,,,3.0,,3,http://release.niem.gov/niem/niem-core/3.0/
+2.1,nga,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/nga_datum/3.0/
+2.1,niem-xsd,2,modified,,,3.0,niem-xs,3,http://release.niem.gov/niem/proxy/xsd/3.0/
+2.1,nlets,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/nlets/3.0/
+2.1,nonauth,2,modified,,,3.0,core_misc,3,http://release.niem.gov/niem/codes/core_misc/3.0/
+2.1,s,2,modified,,,3.0,structures,3,http://release.niem.gov/niem/structures/3.0/
+2.1,sar,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/codes/pmise_sar/3.0/
+2.1,scr,2.1,modified,,,3.0,,3,http://release.niem.gov/niem/domains/screening/3.0/
+2.1,ucr,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/fbi_ucr/3.0/
+2.1,unece,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/unece_rec20/3.0/
+2.1,usps,2,modified,,,3.0,,3,http://release.niem.gov/niem/codes/usps_states/3.0/
+2.1,,,new,,,3.0,biom,3,http://release.niem.gov/niem/domains/biometrics/3.0/
+2.1,,,new,,,3.0,census,3,http://release.niem.gov/niem/codes/census_uscounty/3.0/
+2.1,,,new,,,3.0,commodity,3,http://release.niem.gov/niem/codes/census_commodity/3.0/
+2.1,,,new,,,3.0,dol,3,http://release.niem.gov/niem/codes/dol_soc/3.0/
+2.1,,,new,,,3.0,genc,3,http://release.niem.gov/niem/codes/nga_genc/3.0/
+2.1,,,new,,,3.0,hl7,3,http://release.niem.gov/niem/codes/hl7/3.0/
+2.1,,,new,,,3.0,itcodes,3,http://release.niem.gov/niem/codes/it_codes/3.0/
+2.1,,,new,,,3.0,ndex,3,http://release.niem.gov/niem/codes/fbi_ndex/3.0/
+2.1,,,new,,,3.0,occs,3,http://release.niem.gov/niem/codes/occs_facility/3.0/
+2.1,,,new,,,3.0,xCard,3,http://release.niem.gov/niem/codes/xCard/3.0/
+2.1,,,new,,,3.0,xml,3,
+2.1,ansi-nist,2,deleted,,,3.0,,,
+2.1,census,2,deleted,,,3.0,,,
+2.1,itis,2.1,deleted,,,3.0,,,
+2.1,lasd,2,deleted,,,3.0,,,
+2.1,mn_off,2,deleted,,,3.0,,,
+2.1,twpdes,2,deleted,,,3.0,,,
+2.1,ut_offender,2,deleted,,,3.0,,,
+2.1,cap,1,no change,,,3.0,,,
+2.1,de,1,no change,,,3.0,,,
+2.1,gml,2.1,no change,,,3.0,,,
+2.1,have,2.1,no change,,,3.0,,,
+2.1,xhtml,1,no change,,,3.0,,,
+2.1,xlink,2.1,no change,,,3.0,,,
+2.1,xls,2.1,no change,,,3.0,,,
+2.1,xsd,1,no change,,,3.0,,,

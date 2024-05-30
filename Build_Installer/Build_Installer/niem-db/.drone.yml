@@ -1,0 +1,19 @@
+---
+kind: pipeline
+type: kubernetes
+#####
+####
+
+steps:
+- name: Build & Push  
+  image: plugins/docker
+  privledged: true
+  debug: true
+  settings:
+    username: robot$drone
+    password:
+      from_secret: robot_pass
+    auto_tag: true
+    repo: harbor.paas.cdf2.usae.bah.com/niem/db
+    registry: harbor.paas.cdf2.usae.bah.com
+    insecure: true

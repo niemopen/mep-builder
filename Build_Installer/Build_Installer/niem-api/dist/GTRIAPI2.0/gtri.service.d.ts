@@ -1,0 +1,32 @@
+import { ErrorLogService } from 'src/error/error.log.service';
+import { FilesService } from 'src/data/files/files.service';
+import { MongoRepoService } from 'src/data/mongorepository/mongorepo.service';
+import { SearchPropertiesDto, SearchTypesDto } from './dto/gtri.api.2.0.dto';
+export declare class GTRIService {
+    private ErrorLogService;
+    private FilesService;
+    private MongoRepoService;
+    constructor(ErrorLogService: ErrorLogService, FilesService: FilesService, MongoRepoService: MongoRepoService);
+    transformModel(from: any, to: any, fileBuffer: any, userId: any): Promise<any>;
+    migrateModel(from: any, to: any, cmfFileBuffer: any, auditUser: any): Promise<any>;
+    getAllProperties(version: any): Promise<any>;
+    getProperty(version: any, qname: any): Promise<any>;
+    getFacets(version: any, qname: any): Promise<any>;
+    getPropertiesByNamespace(version: any, prefix: any): Promise<any>;
+    getType(version: any, qname: any): Promise<any>;
+    getTypeCMF(version: any, qname: any): Promise<any>;
+    getTypesByNamespace(version: any, prefix: any): Promise<any>;
+    getTypeSubproperties(version: any, qname: any): Promise<any>;
+    getAllNamespaces(version: any): Promise<any>;
+    getNamespace(version: any, prefix: any): Promise<any>;
+    getNamespaceCMF(version: any, prefix: any): Promise<any>;
+    searchProperties(SearchPropertiesDto: SearchPropertiesDto): Promise<any>;
+    searchTypes(SearchTypesDto: SearchTypesDto): Promise<any>;
+    validateMessageSpecification(packageId: any, auditUser: any): Promise<any>;
+    validateMessageCatalog(fileBlobId: any, auditUser: any): Promise<any>;
+    validateSchemaNDR(packageId: any, auditUser: any): Promise<any>;
+    validateSchemaXML(packageId: any, auditUser: any): Promise<any>;
+    validateCmfXML(fileBlobId: any, auditUser: any): Promise<any>;
+    validateInstanceXML(packageId: any, targetFileBlobId: any, auditUser: any): Promise<any>;
+    validateInstanceJSON(targetFileBlobId: any, schemaFileBlobId: any, auditUser: any): Promise<any>;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"mappingdoc.schema.js","sourceRoot":"","sources":["../../../../src/data/mongorepository/schemas/mappingdoc.schema.ts"],"names":[],"mappings":";;;AAAA,qCAAqC;AAExB,QAAA,gBAAgB,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IAClD,SAAS,EAAE,MAAM;IACjB,cAAc,EAAE,MAAM;CACvB,CAAC,CAAC"}

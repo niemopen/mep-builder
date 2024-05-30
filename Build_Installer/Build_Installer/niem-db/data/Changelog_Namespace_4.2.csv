@@ -1,0 +1,81 @@
+originalRelease,originalPrefix,originalVersionNumber,changeCode,issue,draft,release,newPrefix,newVersionNumber,newURI
+4.1,biom,4.1,edit,43,alpha1,4.2,biom,4.2,http://release.niem.gov/niem/domains/biometrics/4.2/
+4.1,cbrn,4.1,edit,,alpha1,4.2,cbrn,4.2,http://release.niem.gov/niem/domains/cbrn/4.2/
+4.1,em,4.1,edit,42,alpha1,4.2,em,4.2,http://release.niem.gov/niem/domains/emergencyManagement/4.2/
+4.1,hs,4.1,edit,,alpha1,4.2,hs,4.2,http://release.niem.gov/niem/domains/humanServices/4.2/
+4.1,im,4.1,edit,,alpha1,4.2,im,4.2,http://release.niem.gov/niem/domains/immigration/4.2/
+4.1,intel,4.1,edit,,alpha1,4.2,intel,4.2,http://release.niem.gov/niem/domains/intelligence/4.2/
+4.1,it,4.1,edit,,alpha1,4.2,it,4.2,http://release.niem.gov/niem/domains/internationalTrade/4.2/
+4.1,j,6.1,edit,20,alpha1,4.2,j,6.2,http://release.niem.gov/niem/domains/jxdm/6.2/
+4.1,m,4.1,edit,,alpha1,4.2,m,4.2,http://release.niem.gov/niem/domains/maritime/4.2/
+4.1,mo,4.1,edit,,alpha1,4.2,mo,4.2,http://release.niem.gov/niem/domains/militaryOperations/4.2/
+4.1,ncic,4.0,edit,20,alpha1,4.2,ncic,4.2,http://release.niem.gov/niem/codes/fbi_ncic/4.2/
+4.1,ndex,4.1,edit,39,beta1,4.2,ndex,4.2,http://release.niem.gov/niem/codes/fbi_ndex/4.2/
+4.1,scr,4.1,edit,,alpha1,4.2,scr,4.2,http://release.niem.gov/niem/domains/screening/4.2/
+4.1,ucr,4.1,edit,59,beta1,4.2,ucr,4.2,http://release.niem.gov/niem/codes/fbi_ucr/4.2/
+4.1,,,add,48,beta1,4.2,commodity-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/census_commodity/4.0/2/
+4.1,,,add,49,beta1,4.2,dea-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/dea_ctlsub/4.0/2/
+4.1,,,add,50,beta1,4.2,dol-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/dol_soc/4.0/2/
+4.1,,,add,51,beta1,4.2,fips-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/fips/4.0/2/
+4.1,,,add,66,beta1,4.2,genc,4.2,http://release.niem.gov/niem/codes/genc/4.2/
+4.1,,,add,53,beta1,4.2,hazmat-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/dot_hazmat/4.0/2/
+4.1,,,add,54,beta1,4.2,hl7-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/hl7/4.0/2/
+4.1,,,add,55,beta1,4.2,iso_4217-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/iso_4217/4.0/2/
+4.1,,,add,56,beta1,4.2,iso_639-3-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/iso_639-3/4.0/2/
+4.1,,,add,,beta1,4.2,nc-4.0.2,4.0.2,http://publication.niem.gov/niem/niem-core/4.0/2/
+4.1,,,add,57,beta1,4.2,occs-4.0.2,4.0.2,http://publication.niem.gov/niem/codes/occs_facility/4.0/2/
+4.1,cjis,4.0,delete,68,,4.2,,,
+4.1,nibrs,4.1,delete,59,,4.2,,,
+4.1,aamva_d20,4.0,no change,,,4.2,,,
+4.1,ag,4.0,no change,,,4.2,,,
+4.1,ag_codes,4.0,no change,,,4.2,,,
+4.1,apco,4.0,no change,,,4.2,,,
+4.1,appinfo,4.0,no change,,,4.2,,,
+4.1,atf,4.0,no change,,,4.2,,,
+4.1,can,4.0,no change,,,4.2,,,
+4.1,cap,1.1,no change,,,4.2,,,
+4.1,cbrncl,4.0,no change,,,4.2,,,
+4.1,census,4.0,no change,,,4.2,,,
+4.1,cli,4.0,no change,,,4.2,,,
+4.1,commodity,4.0,no change,,,4.2,,,
+4.1,de,1.0,no change,,,4.2,,,
+4.1,dea,4.0,no change,,,4.2,,,
+4.1,dod_jcs-pub2.0,4.0,no change,,,4.2,,,
+4.1,dol,4.0,no change,,,4.2,,,
+4.1,edxl_rm,4.0,no change,,,4.2,,,
+4.1,edxl-cap,4.0,no change,,,4.2,,,
+4.1,edxl-de,4.0,no change,,,4.2,,,
+4.1,edxl-have,4.0,no change,,,4.2,,,
+4.1,fips_5-2,4.0,no change,,,4.2,,,
+4.1,geo,4.0,no change,,,4.2,,,
+4.1,gml,3.2.1,no change,,,4.2,,,
+4.1,have,1.0,no change,,,4.2,,,
+4.1,have-codes,4.0,no change,,,4.2,,,
+4.1,hazmat,4.0,no change,,,4.2,,,
+4.1,hl7,4.0,no change,,,4.2,,,
+4.1,ip,4.0,no change,,,4.2,,,
+4.1,iso_3166,4.0,no change,,,4.2,,,
+4.1,iso_4217,4.0,no change,,,4.2,,,
+4.1,iso_639-3,4.0,no change,,,4.2,,,
+4.1,itcodes,4.0,no change,,,4.2,,,
+4.1,jc3iedm,4.0,no change,,,4.2,,,
+4.1,jp3-52,4.0,no change,,,4.2,,,
+4.1,mmucc,4.1,no change,,,4.2,,,
+4.1,nc,4.0,no change,,,4.2,,,
+4.1,nc-4.0.1,4.0.1,no change,,,4.2,,,
+4.1,nga,4.0,no change,,,4.2,,,
+4.1,niem-xs,4.0,no change,,,4.2,,,
+4.1,nlets,4.0,no change,,,4.2,,,
+4.1,occs,4.0,no change,,,4.2,,,
+4.1,sar,4.0,no change,,,4.2,,,
+4.1,st,4.1,no change,,,4.2,,,
+4.1,structures,4.0,no change,,,4.2,,,
+4.1,unece,4.0,no change,,,4.2,,,
+4.1,usda_fsa,4.0,no change,,,4.2,,,
+4.1,usps,4.0,no change,,,4.2,,,
+4.1,xCard,4.0,no change,,,4.2,,,
+4.1,xhtml,1.0,no change,,,4.2,,,
+4.1,xlink,1.0.0,no change,,,4.2,,,
+4.1,xls,1.1.0,no change,,,4.2,,,
+4.1,xml,1.0,no change,,,4.2,,,
+4.1,xs,1.0,no change,,,4.2,,,
