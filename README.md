@@ -4,23 +4,15 @@
 
 <update text>
 
+The NIEMOpen MEP Builder is a tool designed to assist a user when constructing 
+Message Exchange Packages (MEP)s, formerly known as Information Exchange 
+Package Documentation (IEPD)s. This tool streamlines the process used to produce 
+these packages using NIEMOpen.
+
+This tool is accessible via [https://mep.niemopen.org](https://mep.niemopen.org).  
+
 For more information on NIEMOpen, see the project's website at [www.niemopen.org](www.niemopen.org).
 
-General questions about OASIS Open Projects may be directed to OASIS staff at project-admin@lists.oasis-open-projects.org
-
-## Other assets
-
-In addition to this GitHub repository, this project also makes use of other assets. 
-
-- The NIEMOpen website is at www.niemopen.org. The website contains news, announcements, and other information of interest about the project. 
-
-- The [General purpose mailing list](https://lists.oasis-open-projects.org/g/niemopen). To subscribe, send an empty email message to niemopen+subscribe@lists.oasis-open-projects.org. Anyone interested is welcome to subscribe and send email to the list. The list maintains an [archive](https://lists.oasis-open-projects.org/g/niemopen/messages).
-
-- The [Project Governing Board mailing list](https://lists.oasis-open-projects.org/g/niemopen-pgb). This is the discussion list for use by the members of the PGB. To subscribe, send an empty email message to niemopen-pgb+subscribe@lists.oasis-open-projects.org. Anyone interested is welcome to subscribe read-only. Only PGB members can post. The list maintains an [archive](https://lists.oasis-open-projects.org/g/niemopen-pgb/messages).
-
-- [NBAC Technical Steering Committee mailing list](https://lists.oasis-open-projects.org/g/niemopen-nbactsc). This is the discussion list for use by the members of the NIEM Business Architecture Committee TSC. To subscribe, send an empty email message to niemopen-nbactsc+subscribe@lists.oasis-open-projects.org. Anyone interested is welcome to subscribe read-only. The list maintains an [archive](https://lists.oasis-open-projects.org/g/niemopen-nbactsc/messages).
-
-- [NTAC Technical Steering Committee mailing list](https://lists.oasis-open-projects.org/g/niemopen-ntactsc). This is the discussion list for use by the members of the NIEM Technical Architecture Committee TSC. To subscribe, send an empty email message to niemopen-ntactsc+subscribe@lists.oasis-open-projects.org. Anyone interested is welcome to subscribe read-only. The list maintains an [archive](https://lists.oasis-open-projects.org/g/niemopen-ntactsc/messages).
 
 # Contributing
 
