@@ -9,7 +9,9 @@ Message Exchange Packages (MEP)s, formerly known as Information Exchange
 Package Documentation (IEPD)s. This tool streamlines the process used to produce 
 these packages using NIEMOpen.
 
-This tool is accessible via [https://mep.niemopen.org](https://mep.niemopen.org).  
+This tool is accessible via [https://mep.niemopen.org](https://mep.niemopen.org). Please allow 1 business day for account approval. Users will receive a confirmation email from info@niemopen.org.
+
+Report an issue or propose improvements, please create an issue at [https://github.com/niemopen/mep-builder/issues/](https://github.com/niemopen/mep-builder/issues/).
 
 For more information on NIEMOpen, see the project's website at [www.niemopen.org](www.niemopen.org).
 
