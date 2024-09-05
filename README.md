@@ -4,14 +4,12 @@
 
 <update text>
 
-The NIEMOpen MEP Builder is a tool designed to assist a user when constructing 
-Message Exchange Packages (MEP)s, formerly known as Information Exchange 
-Package Documentation (IEPD)s. This tool streamlines the process used to produce 
-these packages using NIEMOpen.
+The NIEMOpen MEP Builder is a tool designed to assist a user when constructing Message Exchange Packages (MEP)s, formerly known as Information Exchange 
+Package Documentation (IEPD)s. This tool streamlines the process used to produce these packages using NIEMOpen.  Users may download this tool for offline usage or users may access the online tool.
 
 This tool is accessible via [https://mep.niemopen.org](https://mep.niemopen.org). Please allow 1 business day for account approval. Users will receive a confirmation email from info@niemopen.org.
 
-Report an issue or propose improvements, please create an issue at [https://github.com/niemopen/mep-builder/issues/](https://github.com/niemopen/mep-builder/issues/).
+To report an issue or propose improvements, please create an issue at [https://github.com/niemopen/mep-builder/issues/](https://github.com/niemopen/mep-builder/issues/). A GitHub account is required to log an issue to the issue tracker.
 
 For more information on NIEMOpen, see the project's website at [www.niemopen.org](www.niemopen.org).
 
